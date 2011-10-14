@@ -1,0 +1,10 @@
+input[type=button].simple-translation-delete {
+	color: white; background: red; font-weight: bold; background: #7CA0C7 url(delete-bg.gif) bottom repeat-x;
+}
+input[type=button][disabled].simple-translation-current {
+	background: #7CA0C7 url(current-bg.gif) bottom repeat-x;
+}
+
+input[type=button].simple-translation-exists {
+	background: #d3ffb5 url(exists-bg.gif) bottom repeat-x;;
+}
