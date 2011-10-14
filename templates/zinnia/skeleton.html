@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block main-col %}
+{% load zinnia_tags tagging_tags i18n %}
+{% tags_for_model zinnia.entry as tag_entry %}
+	<div id="grid-left">
+        <div id='grid-right'>
+          <div id='sidebar'>
+          {% block sidebar %}
+          {% endblock %}
+          </div>
+        </div>
+
+	  {% block content %}
+	  <h3>The content block need to be overrided!</h3>
+	  {% endblock %}
+	</div>
+
+{% endblock %}

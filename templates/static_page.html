@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block main-col %}
+  <div id='dep-left'>
+
+<div id='dep-right'> {% placeholder sidebar %} 
+
+{% include "searchbox.html" %}
+
+
+ </div>
+
+   {% placeholder static_page_content %} <div style='clear:both;'></div>  </div>
+{% endblock %}
+
+

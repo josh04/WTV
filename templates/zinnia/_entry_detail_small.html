@@ -1,0 +1,38 @@
+{% load tagging_tags comments i18n %}
+
+<div class='small-video' style='float: {{ float }}'>
+  <h3 class="entry-date">
+      <a href="{{ object.get_absolute_url }}"> {{ object.creation_date|date:"DATE_FORMAT" }}</a>
+  </h3>
+
+
+
+{{ object_content }} 
+
+
+
+<div class='video-info'>
+
+    <p class='comments'>
+    {% with object.comments.count as comment_count %}
+    {% if comment_count %}
+    <a href="{{ object.get_absolute_url }}#comments" title="{{ object.title }}">
+      {% blocktrans count comment_count as comment_count %}{{ comment_count }} comment{% plural %}{{ comment_count }} comments{% endblocktrans %}
+    </a>
+    {% else %}
+      {% if object.comment_enabled %}
+    <a href="{{ object.get_absolute_url }}#comments" title="{{ object.title }}">
+      {% trans "No comments yet." %}
+    </a>
+      {% else %}
+      {% trans "Comments are closed." %}
+      {% endif %}
+    {% endif %}
+    {% endwith %}
+
+    </p>
+ </div> 
+
+
+
+<div style='clear:both'></div></div>

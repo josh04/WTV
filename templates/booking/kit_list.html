@@ -1,0 +1,10 @@
+{% if object_list %}
+    <ul>
+    {% for object in object_list %}
+        <li><a href="/booking/{{ object.id }}/">{{ object.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No bookings available.</p>
+{% endif %}
+

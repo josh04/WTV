@@ -1,0 +1,15 @@
+{% load i18n %}
+<ul>
+  {% for entry in entries %}
+  {% with entry.html_content|safe as object_content %}
+
+  <li>
+    {{ object_content }}
+  </li>
+  {% endwith %}
+  {% empty %}
+  <li>
+    {% trans "No entries yet." %}
+  </li>
+  {% endfor %}
+</ul>

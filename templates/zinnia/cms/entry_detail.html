@@ -1,0 +1,17 @@
+{% load i18n %}
+{% for entry in entries %}
+<div class="hentry{% if entry.featured %} featured{% endif %}">
+  {% cycle 'left;clear:left' 'right;clear:right' as float silent %}
+  {% with entry as object %}
+  {% with object.html_content|truncatewords_html:100|safe as object_content %}
+    {% if forloop.counter < 3 %}
+      {% include "zinnia/_entry_detail.html" %}
+    {% else %}
+      {% include "zinnia/_entry_detail_small.html" %}
+    {% endif %}
+  {% endwith %}
+  {% endwith %}
+</div>
+{% empty %}
+  {% trans "No entries yet." %}
+{% endfor %}

@@ -1,0 +1,39 @@
+{% extends "cmsplugin_blog/cmsplugin_blog_base.html" %}
+{% load i18n cmsplugin_blog_tags simple_translation_tags placeholder_tags %}
+
+{% block left-col %}
+<div id='news'>
+
+{% for entry in latest|annotate_with_translations %}
+  <div class='post'>
+    {% with entry|get_preferred_translation_from_request:request as title %}
+        <span class='date'>  
+            {{ entry.pub_date|date:"d" }}
+            <a href="{% url blog_archive_month year=entry.pub_date|date:"Y",month=entry.pub_date|date:"m" %}">
+              {{ entry.pub_date|date:"F Y" }}</a>
+        </span>
+        <h2><a href="{{ title.get_absolute_url }}">{{ title }}</a>
+           {{ entry|render_language_choices:request|safe }}
+        </h2>
+
+    {% endwith %}
+    {% with entry.placeholders|choose_placeholder:"text" as text %}
+      {% render_placeholder text %}
+    {% endwith %}
+
+    {% with entry.placeholders|choose_placeholder:"video" as video %}
+      {% render_placeholder video %}
+    {% endwith %}
+
+ 
+  </div>
+{% empty %}
+	<p>{% trans "No entries" %}<p>
+{% endfor %}
+
+</div>
+{% endblock %}
+
+{% block right-col %}
+
+{% endblock %}

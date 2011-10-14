@@ -1,0 +1,84 @@
+{% load cms_tags menu_tags %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en-gb" />
+    <title>Warwick TV | {% block title %}Home{% endblock %}</title>
+    <meta name="ROBOTS" content="ALL" />
+    <meta name="keywords" content="warwick, tv, television, student" />
+    <meta name="description" content="University of Warwick TV Society." />
+    <link rel='icon' href='/media/tvlogo-small.png' /> 
+    <link href="{{ MEDIA_URL }}css/{% block cssid %}base{% endblock %}.css" rel="stylesheet" type="text/css" media="screen" />
+    <script type='text/javascript' src='/media/js/jquery.js'></script>
+  </head>
+  <body>
+    {% block extrahead %}{% endblock %}
+  
+    <script type="text/javascript">
+      $(document).ready(function(){
+
+
+        $("#about").hover(function(){
+          $("#about-menu").slideDown(200);
+        }, function(){
+          $("#about-menu").slideUp(200);
+        });
+
+
+        $("#get-involved").hover(function(){
+          $("#get-involved-menu").slideDown(200);
+        }, function(){
+          $("#get-involved-menu").slideUp(200);
+        });
+
+      });
+    </script>
+
+
+   <div id='wrapper'>
+     <ul id='top-menu'>
+      <li class="sibling">
+       <a href='/admin/' id='members'>members</a>
+      </li>
+      <li class="sibling">
+       <a href='/archive/' id='archive'>archive</a>
+      </li>
+      <li class="sibling">
+       <a href='{% page_url "contact" %}' id='contact'>contact</a>
+      </li>
+      <li class="sibling" id='get-involved'>
+       <a href='{% page_url "get-involved" %}'>{% page_attribute "page_title" "get-involved" %}</a>
+       <ul id='get-involved-menu' class='sub-menu'>{% show_menu_below_id "get-involved" %}</ul>
+      </li>
+      <li class="sibling" id='about'>
+       <a href='{% page_url "about" %}'>{% page_attribute "page_title" "about" %}</a>
+       <ul id='about-menu' class='sub-menu'>
+         {% show_menu_below_id "about" %}
+       </ul>
+      </li>
+     </ul>
+    <div id='banner'><a href='/' id='logo'></a>
+    <div id='icon-box'>
+      <a id='twitter-icon' href="http://twitter.com/Warwick_TV"></a>
+      <a id='fb-icon' href="https://www.facebook.com/pages/WTV/176589262511"></a>
+      <a id='youtube-icon' href="http://www.youtube.com/user/WarwickTV"></a>
+      <a id='su-icon' href="http://www.warwicksu.com/societies/warwicktv/"></a>
+    </div>
+
+    <div style='clear:both;'></div>
+    <div id='menubar'>
+      <ul id='breadcrumbs'>{% block breadcrumbs %}{% show_breadcrumb %}{% endblock %}</ul><ul id='submenu'>{% show_sub_menu 1 %}</ul>
+    </div>
+    </div>
+    <div style='clear:both;height:25px;'></div>
+
+    {% block main-col %}{% endblock %}
+
+    <div style='clear:both;'></div>
+   </div>
+   <div id='bottom'>
+   </div>
+  </body>
+</html>

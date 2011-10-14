@@ -1,0 +1,10 @@
+<h1>{{ object.name }}</h1>
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+  <div> We have  {{ object.amount }}.</div>
+
+<h2>Important Information</h2>
+{% for spec in object.specs.all %}
+  <div> {{ spec.id }} - {{ spec.name }}</div>
+{% endfor %}
+

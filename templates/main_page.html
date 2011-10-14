@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block extrahead %}
+  <script type='text/javascript' src='/media/js/jquery.cycle.all.js'></script>
+{% endblock %}
+
+{% block main-col %}
+
+<div id='grid-left'>
+ 
+<div id='grid-right'>
+
+  <div id='shoutbox'>
+    {% placeholder "newsscroll" %}
+  </div>
+
+{% include "searchbox.html" %}
+ 
+<div class='shadow' id="twitter">
+  {% placeholder "twitter" %}
+ </div>
+</div>
+
+<h2>Latest Video</h2>
+<div id='bner'>  {% placeholder "votd" %} </div>
+
+<script type='text/javascript'>
+$(function (){
+  $('#bner').after('<div id="nav">').cycle({
+      fx:     'scrollRight',
+      speed:  '3000',
+      timeout: '10000',
+      pager:  '#nav',
+  });
+  $('#bner iframe').mouseover(function () { $('#bner').cycle('pause') });
+
+})
+
+</script>
+
+  <h2 style='margin-top:20px'>News</h2>
+
+
+  {% placeholder blog %}
+</div>
+
+{% endblock %}
