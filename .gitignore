@@ -2,3 +2,4 @@
 *.pyo
 *.swp
 wtvsettings/Private.py
+apache/django.wsgi
