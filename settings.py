@@ -97,17 +97,16 @@ MIDDLEWARE_CLASSES = (
     'cms.middleware.page.CurrentPageMiddleware',
     'cms.middleware.user.CurrentUserMiddleware',
     'cms.middleware.toolbar.ToolbarMiddleware',
-    'cms.middleware.media.PlaceholderMediaMiddleware',
     'cbv.middleware.DeferredRenderingMiddleware',
 )
 
-ROOT_URLCONF = 'wtv.urls'
+ROOT_URLCONF = Private.WTVSettings.urls()
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    os.path.join(PROJECT_PATH, '/home/django/wtv/templates')
+    os.path.join(PROJECT_PATH, 'templates')
 )
 
 INSTALLED_APPS = (
@@ -123,6 +122,7 @@ INSTALLED_APPS = (
     'mptt',
     'menus',
     'south',
+    'sekizai',
     'appmedia',
     'cms.plugins.text',
     'cms.plugins.picture',
@@ -141,6 +141,7 @@ INSTALLED_APPS = (
     'polls',
     'textvid',
 #    'booking',
+    'wtvforms',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -187,9 +188,11 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.i18n',
     'django.core.context_processors.request',
     'django.core.context_processors.media',
+    'django.core.context_processors.static',
     'cms.context_processors.media',
     'zinnia.context_processors.version', # Optional
     'zinnia.context_processors.media',
+    'sekizai.context_processors.sekizai',
 )
 
 JQUERY_JS = 'https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'

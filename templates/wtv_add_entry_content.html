@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+
+<script type="text/javascript" src="/media/js/wymeditor/jquery.wymeditor.js"></script>
+<script type="text/javascript" src="/media/js/wymeditor/plugins/resizable/jquery.wymeditor.resizable.js"></script>
+<script type="text/javascript" src="/media/cms/js/wymeditor.placeholdereditor.js"></script>
+<script type="text/javascript" src="/media/cms/js/placeholder_editor_registry.js"></script>
+
+{% endblock %}
+
+{% block main-col %}
+
+<div id='grid-left'>
+
+ <div class='video'>
+  <h3>WTV Add Video Form - Page 2 of 2</h2>
+
+  <div class='post'>
+   <form method="post" action="">
+    {% csrf_token %}
+    <div class='entry-form'>
+     {{ form.body }}
+     {{ form.youtube_id.label }}: {{ form.youtube_id }}
+    </div>
+    <p class='submit-row'><input type="submit" value="Publish" /></p>
+   </form>
+  </div>
+
+ </div>
+</div>
+{% endblock %}

@@ -10,12 +10,14 @@ urlpatterns = patterns('',
     url(r'^comments/', include('django.contrib.comments.urls')),
     (r'^polls/', include('polls.urls')),
     (r'^booking/', include('booking.urls')),
-    url(r'^add/', 'wtv-dev.views.wtv_entry_add.view_wtv_entry_add'),
+    url(r'^add/', include('wtvforms.urls')),
     (r'^accounts/login/$', 'django.contrib.auth.views.login'),
     url(r'^', include('cms.urls')),
 )
 
 if settings.DEBUG:
     urlpatterns = patterns('',
-        (r'^' + settings.MEDIA_URL.lstrip('/'), include('appmedia.urls')),
-    ) + urlpatterns
+    url(r'^media/(?P<path>.*)$', 'django.views.static.serve',
+        {'document_root': settings.MEDIA_ROOT, 'show_indexes': True}),
+    url(r'', include('django.contrib.staticfiles.urls')),
+) + urlpatterns

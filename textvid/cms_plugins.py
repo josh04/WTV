@@ -31,7 +31,7 @@ class TextVidPlugin(TextPlugin):
 
     widget = self.get_editor_widget(request, plugins)
     TextPluginForm.declared_fields["body"] = CharField(widget=widget, required=False)
-    TextPluginForm.declared_fields["youtube_id"] = CharField(required=False)
+    TextPluginForm.declared_fields["youtube_id"] = CharField(required=False, label='Youtube URL')
     return TextPluginForm
 
   def get_form(self, request, obj=None, **kwargs):

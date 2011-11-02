@@ -41,7 +41,7 @@ h2 a:link, h2 a:visited, h2 a:active {
 }
 
 h3 {
-  color: #CFCFCF;
+  color: #999;
   font-weight: bold;
   font-size: 1.5em;
   text-align: left;
@@ -726,10 +726,55 @@ div.paginator span.current { border-color: rgb(92, 92, 92); background-color: rg
 
 .login .submit-row {
     clear: both;
+}
+
+.submit-row {
     padding: 1em 0 0 9.4em;
+    text-align:right;
+    margin-right: 15px;
 }
 
 .login h2 {
-  margin: 50px;
+  margin: 10px;
 }
 
+.button, input[type="submit"], input[type="button"], .submit-row input {
+  background: white;
+  padding: 3px 5px;
+  color: black;
+  border: 1px solid #BBB;
+  border-color: #DDD #AAA #AAA #DDD;
+}
+
+input, textarea, select, .form-row p {
+  margin: 2px 0;
+  padding: 2px 3px;
+  vertical-align: middle;
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+input[type="text"], input[type="password"], textarea, select, .vTextField {
+  border: 1px solid #CCC;
+}
+
+.entry-form .errorlist li {
+  margin: 0;
+  list-style-type: none;
+  color: #990000;
+}
+
+.entry-form .errorlist {
+  padding: 0;
+  float: right;
+  margin: 0;  
+}
+
+.entry-form {
+  width: 100%;
+}
+
+#grid-left .entry-form h2 {
+  width: auto;
+}
