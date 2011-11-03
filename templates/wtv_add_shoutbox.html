@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block main-col %}
+
+<div id='grid-left'>
+
+ <div class='video'>
+  <h3>WTV Shoutbox Form - Page 1 of 2</h2>
+
+  <div class='post'>
+   <form method="post" action="">
+    {% csrf_token %}
+    <table class='entry-form'>
+     {{ form.as_table }}
+    </table>
+    <p class='submit-row'><input type="submit" value="Next >>" /></p>
+   </form>
+  </div>
+
+ </div>
+</div>
+{% endblock %}

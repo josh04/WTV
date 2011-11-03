@@ -10,8 +10,8 @@ urlpatterns = patterns('',
     url(r'^comments/', include('django.contrib.comments.urls')),
     (r'^polls/', include('polls.urls')),
     (r'^booking/', include('booking.urls')),
-    url(r'^add/', include('wtvforms.urls')),
-    (r'^accounts/login/$', 'django.contrib.auth.views.login'),
+    url(r'^wtv/', include('wtvforms.urls')),
+    (r'^login/$', 'django.contrib.auth.views.login'),
     url(r'^', include('cms.urls')),
 )
 

@@ -534,10 +534,10 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
   list-style-type: none;
 }
  
-#shoutbox li .post {
-  background: rgb(92, 92, 92);
+#shoutbox li .post, #container{
+  background: rgb(92, 92, 92) !important;
   padding: 5px;
-  color: #fff;
+  color: #fff !important;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -712,7 +712,7 @@ div.paginator span.current { border-color: rgb(92, 92, 92); background-color: rg
     line-height: 2em;
     text-align: right;
     font-size: 1em;
-    color: #333;
+    color: #fff;
 }
 
 .login .form-row #id_username, .login .form-row #id_password {

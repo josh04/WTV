@@ -21,9 +21,6 @@
     {% csrf_token %}
     <div class='entry-form'>
      {{ form.body }}
-     {{ form.youtube_id.label }}: {{ form.youtube_id }}
-
-     {{ entry }}
     </div>
     <p class='submit-row'><input type="submit" value="Publish" /></p>
    </form>

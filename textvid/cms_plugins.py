@@ -43,12 +43,9 @@ class TextVidPlugin(TextPlugin):
     plugins = plugin_pool.get_text_enabled_plugins(self.placeholder, self.page)
     form = self.get_form_class(request, plugins)
     kwargs['form'] = form # override standard form
-    return super(TextPlugin, self).get_form(request, obj, **kwargs)
+    return super(TextVidPlugin, self).get_form(request, obj, **kwargs)
 
   def render(self, context, instance, placeholder):
-    if settings.CMS_DBGETTEXT:
-      from dbgettext.parser import parsed_gettext
-      instance.body = parsed_gettext(instance, 'body')
     context.update({
       'body': plugin_tags_to_user_html(instance.body, context, placeholder),
       'placeholder': placeholder,

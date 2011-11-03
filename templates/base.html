@@ -11,14 +11,16 @@
     <meta name="description" content="University of Warwick TV Society." />
     <link rel='icon' href='/media/tvlogo-small.png' /> 
     <link href="{{ MEDIA_URL }}css/{% block cssid %}base{% endblock %}.css" rel="stylesheet" type="text/css" media="screen" />
+
+    {% render_block "js" %}
+
     <script type='text/javascript' src='/media/js/jquery.js'></script>
 
     {% render_block "css" %}
-    {% render_block "js" %}
   </head>
   <body>
     {% block extrahead %}{% endblock %}
-  
+  {% cms_toolbar %}
     <script type="text/javascript">
       $(document).ready(function(){
 
@@ -36,14 +38,25 @@
           $("#get-involved-menu").slideUp(200);
         });
 
+        $("#members").hover(function(){
+          $("#members-menu").slideDown(200);
+        }, function(){
+          $("#members-menu").slideUp(200);
+        });
+
+
       });
     </script>
 
 
    <div id='wrapper'>
      <ul id='top-menu'>
-      <li class="sibling">
-       <a href='/admin/' id='members'>members</a>
+      <li class="sibling" id='members'>
+       <a href='/login/' id='members'>members</a>
+       <ul id='members-menu' class='sub-menu'>
+        <li><a href='/wtv/add/'>add video</a></li>
+        <li><a href='/wtv/shoutbox/'>add shoutbox</a></li>
+       </ul>
       </li>
       <li class="sibling">
        <a href='/archive/' id='archive'>archive</a>
