@@ -16,7 +16,7 @@ class TextVidPlugin(TextPlugin):
   model = TextVidModel # Model where data about this plugin is saved
   name = _("WTV Video") # Name of the plugin
   render_template = "textvid/plugin.html" # template to render the plugin with
-
+  change_form_template = "textvid/text_plugin_change_form.html"
 
   def get_form_class(self, request, plugins):
     """
