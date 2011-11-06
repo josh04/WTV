@@ -35,12 +35,10 @@ class WTVAddEntryForm(forms.ModelForm):
 
   categories = MPTTModelMultipleChoiceField(
     Category.objects.all(), required=False, label=_('Categories'),
-    widget=MPTTFilteredSelectMultiple(_('categories'), False,
-                                      attrs={'rows': '10'}))
+    widget=MPTTFilteredSelectMultiple(_('categories'), False, attrs={'rows': '10'}))
 
   def __init__(self, *args, **kwargs):
       super(WTVAddEntryForm, self).__init__(*args, **kwargs)
-      rel = ManyToManyRel(Category, 'id')
 
   class Meta:
     """EntryAdminForm's Meta"""
@@ -68,6 +66,7 @@ def wtv_add_entry(request):
       else:
         entry.tags = ''
       entry.save()
+      form.save_m2m()
       entry.sites.add(Site.objects.get_current())
       entry.authors.add(request.user)
       plugin = cms.api.add_plugin(entry.content_placeholder, TextVidPlugin, 'en-gb')
