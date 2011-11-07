@@ -432,15 +432,15 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
 
 #dep-left {
 /*  float:left;*/
-  margin: 15px 20px 0 20px;
+  margin: 15px 10px 0 20px;
   width: 1110px;
 }
 
 #dep-right {
   float:right;
   padding: 5px 0px 0 20px;
-  width: 270px;
-  margin: 15px 0px 15px 20px;
+  width: 268px;
+  margin: 15px 0px 15px 0px;
 }
 
 #dep-right .post {
