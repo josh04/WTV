@@ -26,22 +26,23 @@
 
 
         $("#about").hover(function(){
-          $("#about-menu").slideDown(200);
+          $("#about-menu").stop(true, true).slideDown(200);
         }, function(){
-          $("#about-menu").slideUp(200);
+          $("#about-menu").stop(true, true).slideUp(200);
         });
 
 
         $("#get-involved").hover(function(){
-          $("#get-involved-menu").slideDown(200);
+          $("#get-involved-menu").stop(true, true).slideDown(200);
         }, function(){
-          $("#get-involved-menu").slideUp(200);
+          $("#get-involved-menu").stop(true, true).slideUp(200);
         });
 
         $("#members").hover(function(){
-          $("#members-menu").slideDown(200);
+          
+          $("#members-menu").stop(true, true).slideDown(200);
         }, function(){
-          $("#members-menu").slideUp(200);
+          $("#members-menu").stop(true, true).slideUp(200);
         });
 
 
@@ -51,13 +52,22 @@
 
    <div id='wrapper'>
      <ul id='top-menu'>
+
+      {% if user.is_authenticated %}
       <li class="sibling" id='members'>
        <a href='/login/' id='members'>members</a>
        <ul id='members-menu' class='sub-menu'>
         <li><a href='/wtv/add/'>add video</a></li>
         <li><a href='/wtv/shoutbox/'>add shoutbox</a></li>
+        <li class='members-logout'><a href='/logout/'>log out</a></li>
        </ul>
       </li>
+      {% else %}
+      <li class="members-login" id="members">
+       <a href='/login/' id='members'>login</a>
+      </li>
+      {% endif %}
+
       <li class="sibling">
        <a href='/archive/' id='archive'>archive</a>
       </li>

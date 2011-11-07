@@ -17,6 +17,7 @@ MANAGERS = ADMINS
 DATABASES = Private.WTVSettings.database()
 
 LOGIN_URL = '/login/'
+LOGIN_REDIRECT_URL = '/'
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -178,6 +179,7 @@ CMS_TEMPLATES = (
     ('main_page.html', 'Home Page Template'),
     ('exec.html', 'Exec Page'),
     ('static_text.html', 'Single Text Template'),
+    ('webcam_page.html', 'Webcam Template'),
 )
 
 ZINNIA_PLUGINS_TEMPLATES = [

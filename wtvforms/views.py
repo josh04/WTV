@@ -74,7 +74,7 @@ def wtv_add_entry(request):
   else:
     form = WTVAddEntryForm() 
 
-  return render_to_response('wtv_add_entry.html', {'form': form }, context_instance=RequestContext(request) )
+  return render_to_response('wtvforms/wtv_add_entry.html', {'form': form }, context_instance=RequestContext(request) )
 
 @permission_required('zinnia.add_entry')
 def wtv_add_entry_content(request, plugin_id):
@@ -98,7 +98,7 @@ def wtv_add_entry_content(request, plugin_id):
       return HttpResponseRedirect(reverse('wtvforms.views.wtv_add_entry_content', args=(plugin.id,)))
   else :
     form = formClass(instance=plugin)
-  return render_to_response('wtv_add_entry_content.html', {'form': form}, context_instance=RequestContext(request) )
+  return render_to_response('wtvforms/wtv_add_entry_content.html', {'form': form}, context_instance=RequestContext(request) )
 
 @permission_required('zinnia.add_entry')
 def wtv_add_shoutbox(request):
@@ -118,7 +118,7 @@ def wtv_add_shoutbox(request):
   else:
     form = WTVAddShoutboxForm()
 
-  return render_to_response('wtv_add_shoutbox.html', {'form': form }, context_instance=RequestContext(request) )
+  return render_to_response('wtvforms/wtv_add_shoutbox.html', {'form': form }, context_instance=RequestContext(request) )
 
 
 
@@ -142,5 +142,5 @@ def wtv_add_shoutbox_content(request, plugin_id):
       return HttpResponseRedirect(reverse('wtvforms.views.wtv_add_shoutbox_content', args=(plugin.id,)))
   else :
     form = formClass(instance=plugin)
-  return render_to_response('wtv_add_shoutbox_content.html', {'form': form}, context_instance=RequestContext(request) )
+  return render_to_response('wtvforms/wtv_add_shoutbox_content.html', {'form': form}, context_instance=RequestContext(request) )
 

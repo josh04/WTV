@@ -5,7 +5,7 @@ body {
   font-size: 12px;
   text-align: center;
 /*  background: url('/media/texture.png') rgb(126, 159, 248);*/
-  background: #FFFFFF;
+  background: #CFCFCF;
 /* page resizing with scrollbar appear/disappear */
   overflow-y: scroll;
   padding:0;
@@ -161,13 +161,47 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
 }
 
 #news {
-  box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
-  -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-  background: #CFCFCF;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+#news .video {
+  background-color: transparent;
+  width: 800px;
+  margin: 0px 0 0 0;
+  padding: 0px 0 10px 0;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+#news .video .post {
+  border: 1px dotted #cfcfcf;
+
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  padding: 5px;
+}
+
+#news .video-info {
+  width: 100%;
+}
+
+#news {
+  width: 800px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+#news h2 {
+  margin: 5px 0 0 0;
+  padding: 0px 0 8px 10px;
+  width: 100px !important;
 }
 
 #top-menu {
@@ -377,15 +411,15 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
 #grid-left {
   width: 100%;
   float:left;
-  margin: 5px 0px 0 20px;
+  margin: 5px 0px 0 15px;
   /*width: 800px;*/
 }
 
 #grid-right {
   float:right;
-  padding: 5px 20px 0 20px;
-  width: 270px;
-  margin: 0 20px;
+  padding: 5px 10px 0 20px;
+  width: 268px;
+  margin: 0 26px 0 14px;
 }
 
 #grid-right .post {
@@ -463,7 +497,7 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
   -webkit-border-radius: 5px 0 0 5px;
   -moz-border-radius: 5px 0 0 5px;;
   border-radius: 5px 0 0 5px;
-  margin: 30px 0; 
+  margin: 30px 6px; 
   border-spacing: 0px;
   vertical-align: top;
   background-color: rgb(192, 192, 192);
@@ -613,14 +647,27 @@ p.comments {
   color: rgb(192, 192, 192);
 }
 
+#about, #get-involved, #members {
+  background: url('/media/downarrow.png') left center no-repeat;
+}
+
+#about a:hover, #get-involved a:hover, #members a:hover {
+  background: url('/media/downarrowdark.png') left center no-repeat;
+}
+
 #about-menu {
   height: 66px;
+  overflow:hidden;
 }
 
 #get-involved-menu {
   overflow:hidden;
   height: 165px;  /* ugly but necessary for jquery slide */
 }
+
+#members-menu {
+  overflow: hidden;
+} 
 /*
 #exec {
   background: url('/media/exec.png');
@@ -636,6 +683,9 @@ p.comments {
 
 #nav {
   width: 800px;
+}
+
+#bner {
 }
 
 #bner .video {
@@ -777,4 +827,14 @@ input[type="text"], input[type="password"], textarea, select, .vTextField {
 
 #grid-left .entry-form h2 {
   width: auto;
+}
+
+.members-logout, .members-login {
+  background: rgba(127, 158, 248, 0.2);
+}
+
+.members-logout {
+  border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
 }

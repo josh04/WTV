@@ -12,6 +12,7 @@ urlpatterns = patterns('',
     (r'^booking/', include('booking.urls')),
     url(r'^wtv/', include('wtvforms.urls')),
     (r'^login/$', 'django.contrib.auth.views.login'),
+    (r'^logout/$', 'django.contrib.auth.views.logout_then_login'),
     url(r'^', include('cms.urls')),
 )
 
