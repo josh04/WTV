@@ -52,28 +52,14 @@
 
    <div id='wrapper'>
      <ul id='top-menu'>
-
-      {% if user.is_authenticated %}
-      <li class="sibling" id='members'>
-       <a href='/login/' id='members'>members</a>
-       <ul id='members-menu' class='sub-menu'>
-        <li><a href='/wtv/add/'>add video</a></li>
-        <li><a href='/wtv/shoutbox/'>add shoutbox</a></li>
-        <li class='members-logout'><a href='/logout/'>log out</a></li>
-       </ul>
-      </li>
-      {% else %}
-      <li class="members-login" id="members">
-       <a href='/login/' id='members'>login</a>
-      </li>
-      {% endif %}
-
       <li class="sibling">
        <a href='/archive/' id='archive'>archive</a>
       </li>
       <li class="sibling">
        <a href='{% page_url "contact" %}' id='contact'>contact</a>
       </li>
+
+
       <li class="sibling" id='get-involved'>
        <a href='{% page_url "get-involved" %}'>{% page_attribute "page_title" "get-involved" %}</a>
        <ul id='get-involved-menu' class='sub-menu'>{% show_menu_below_id "get-involved" %}</ul>
@@ -84,6 +70,23 @@
          {% show_menu_below_id "about" %}
        </ul>
       </li>
+      {% if user.is_authenticated %}
+      <li class="sibling" id='members'>
+       <a href='/login/'>members</a>
+       <ul id='members-menu' class='sub-menu'>
+        <li><a href='/wtv/add/'>add video</a></li>
+        <li><a href='/wtv/shoutbox/'>add shoutbox</a></li>
+        <li class='members-logout'><a href='/logout/' title="Don't Go!">log out</a></li>
+       </ul>
+      </li>
+      {% else %}
+      <li>
+       <a href='/login/'>login</a>
+      </li>
+      {% endif %}
+
+
+
      </ul>
     <div id='banner'><a href='/' id='logo'></a>
     <div id='icon-box'>

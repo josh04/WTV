@@ -1,29 +1,16 @@
 from django import forms
-from django.utils.html import linebreaks
-from django.shortcuts import redirect
 from django.core.urlresolvers import reverse
 from django.contrib.sites.models import Site
 from django.template.defaultfilters import slugify
-from django.utils.encoding import smart_str
 from django.contrib.auth.decorators import permission_required
-
-from django.db.models import ManyToManyRel
-
-from django.contrib.admin.widgets import RelatedFieldWidgetWrapper
-
 from django.template import RequestContext
-
 from zinnia.admin.widgets import MPTTFilteredSelectMultiple, MPTTModelMultipleChoiceField
-
 from django.utils.translation import ugettext_lazy as _
-
-from django.shortcuts import render_to_response, get_object_or_404
-
+from django.shortcuts import render_to_response
 from zinnia.models import Entry, Category
 from zinnia.managers import DRAFT, PUBLISHED
 from cms.plugin_rendering import render_placeholder
-
-from django.http import Http404, HttpResponse, HttpResponseRedirect
+from django.http import Http404, HttpResponseRedirect
 from textvid.models import TextVidModel
 from cms.plugins.text.models import Text as TextModel
 from textvid.cms_plugins import TextVidPlugin
