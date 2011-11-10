@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block main-col %}
+
+{% if executive %}
+  <table id='exec-table'>
+    {% for member in executive %}
+
+
+    {% cycle '<tr>' '' %}
+      <td class='exec-pic'>
+        {% if member.photo %}<img src='{{ MEDIA_URL }}{{ member.photo }}' />
+        {% else %}<img src='{{ MEDIA_URL }}missing.jpg' />{% endif %}
+      </td>
+  <td class='exec-text'>
+    {{ member.position }}: {{ member.name }}
+  </td>
+  {% cycle '' '</tr>' %}
+    
+    {% endfor %}
+    </table>
+{% else %}
+    <p>No exec this year I guess!.</p>
+{% endif %}
+
+
+{% endblock %}

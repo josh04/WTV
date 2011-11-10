@@ -144,6 +144,8 @@ INSTALLED_APPS = (
     'textvid',
     'booking',
     'wtvforms',
+    'sortable',
+    'executive',
 )
 
 # A sample logging configuration. The only tangible logging
