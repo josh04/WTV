@@ -838,3 +838,48 @@ input[type="text"], input[type="password"], textarea, select, .vTextField {
   -moz-border-radius: 0 0 5px 5px;
   -webkit-border-radius: 0 0 5px 5px;
 }
+
+.login-menu #members-menu {
+  background: rgba(127, 158, 248, 0.2);
+  padding: 0px 10px;
+  margin-left: -26px;
+}
+
+#submit-login {
+  margin: 5px auto;
+  width: 180px;
+  border-color: #666;
+  border-width: 1px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  color: #333;
+  padding: 4px 7px;
+  cursor: pointer;
+}
+
+form.dropdown-login span {
+  display:block;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: left;
+}
+
+form.dropdown-login p {
+  margin: 10px 0;
+  padding: 0;
+} 
+
+form.dropdown-login label {
+  display: block;
+}
+
+form.dropdown-login input {
+  background: #f4f4f4;
+  color: #003242;
+  border: 1px solid #CCC;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  font: 13px Arial, Helvetica, sans-serif;
+  padding: 6px 6px 2px 4px;
+  width: 170px;
+}

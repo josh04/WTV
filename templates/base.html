@@ -39,12 +39,10 @@
         });
 
         $("#members").hover(function(){
-          
           $("#members-menu").stop(true, true).slideDown(200);
         }, function(){
           $("#members-menu").stop(true, true).slideUp(200);
         });
-
 
       });
     </script>
@@ -80,8 +78,11 @@
        </ul>
       </li>
       {% else %}
-      <li>
-       <a href='/login/'>login</a>
+      <li class='login-menu' id='members'>
+        <a class='members-login' href='/login/'>login</a>
+        <div id='members-menu' class='sub-menu'>
+          {% include 'login_form.html' %}
+        </div>
       </li>
       {% endif %}
 

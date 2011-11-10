@@ -1,0 +1,15 @@
+{% load cms_tags %}
+{% load url from future %}
+          <form method='post' class='dropdown-login' action='{% url 'django.contrib.auth.views.login' %}'>
+          {% csrf_token %}
+          <p><label class='username'>
+                <span>Username</span>
+                <input id='username' name='username' type='text' autocomplete='on' />
+              </label></p>
+              <p><label class='password'>
+                <span>Password</span>
+                <input id='password' name='password' type='password' />
+              </label></p>
+              <input type="hidden" name="next" value="{{ next }}" />
+              <p><input id='submit-login' type='submit' value='Sign in' /></p>
+          </form>

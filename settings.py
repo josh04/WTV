@@ -142,7 +142,7 @@ INSTALLED_APPS = (
     'zinnia.plugins',
     'polls',
     'textvid',
-#    'booking',
+    'booking',
     'wtvforms',
 )
 
