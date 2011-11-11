@@ -681,6 +681,13 @@ p.comments {
   width: 100%;
 }
 
+.exec-pic {
+  width: 160px;
+}
+
+.exec-text {
+  width: 413px;
+}
 #nav {
   width: 800px;
 }

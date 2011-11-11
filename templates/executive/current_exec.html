@@ -13,7 +13,8 @@
         {% else %}<img src='{{ MEDIA_URL }}missing.jpg' />{% endif %}
       </td>
   <td class='exec-text'>
-    {{ member.position }}: {{ member.name }}
+    <p><strong>{{ member.role }}: {{ member.name }}</strong></p>
+    <p>{{ member.description }}</p>
   </td>
   {% cycle '' '</tr>' %}
     
