@@ -88,7 +88,7 @@ def wtv_add_entry_content(request, plugin_id):
   return render_to_response('wtvforms/wtv_add_entry_content.html', {'form': form}, context_instance=RequestContext(request) )
 
 @permission_required('zinnia.add_entry')
-def wtv_add_shoutbox(request):
+def wtv_add_shoutbox(request, mode):
   """View for quickly post an Entry"""
   if request.POST:
     form = WTVAddShoutboxForm(request.POST)
@@ -99,15 +99,16 @@ def wtv_add_shoutbox(request):
       entry.save()
       entry.sites.add(Site.objects.get_current())
       entry.authors.add(request.user)
-      entry.categories.add(7)
+      if (mode == 7):
+        entry.categories.add(7)
+      else:
+        entry.categories.add(6)
       plugin = cms.api.add_plugin(entry.content_placeholder, TextPlugin, 'en-gb')
       return HttpResponseRedirect(reverse('wtvforms.views.wtv_add_shoutbox_content', args=(plugin.id,)))
   else:
     form = WTVAddShoutboxForm()
 
   return render_to_response('wtvforms/wtv_add_shoutbox.html', {'form': form }, context_instance=RequestContext(request) )
-
-
 
 @permission_required('zinnia.add_entry')
 def wtv_add_shoutbox_content(request, plugin_id):
@@ -121,6 +122,7 @@ def wtv_add_shoutbox_content(request, plugin_id):
     form = formClass(request.POST, instance=plugin)
     if form.is_valid():
       plugin = form.save()
+#(TODO) needs a get_object or 404 here. v. important
       entry = Entry.objects.get(content_placeholder__id=plugin.placeholder_id)
       entry.status = PUBLISHED
       context = RequestContext(request)
@@ -130,4 +132,5 @@ def wtv_add_shoutbox_content(request, plugin_id):
   else :
     form = formClass(instance=plugin)
   return render_to_response('wtvforms/wtv_add_shoutbox_content.html', {'form': form}, context_instance=RequestContext(request) )
+
 

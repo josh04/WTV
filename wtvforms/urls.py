@@ -1,11 +1,11 @@
 from django.conf.urls.defaults import *
 
-info_dict = {
-}
 
 urlpatterns = patterns('',
-   (r'^add/(?P<plugin_id>\d+)/$', 'wtvforms.views.wtv_add_entry_content'), 
-   url(r'^add/', 'wtvforms.views.wtv_add_entry'),  
-   (r'^shoutbox/(?P<plugin_id>\d+)/$', 'wtvforms.views.wtv_add_shoutbox_content'),
-   url(r'^shoutbox/', 'wtvforms.views.wtv_add_shoutbox'),
+   (r'^add-video/(?P<plugin_id>\d+)/$', 'wtvforms.views.wtv_add_entry_content'), 
+   url(r'^add-video/', 'wtvforms.views.wtv_add_entry'),  
+   (r'^add-shoutbox/(?P<plugin_id>\d+)/$', 'wtvforms.views.wtv_add_shoutbox_content'),
+   url(r'^add-shoutbox/', 'wtvforms.views.wtv_add_shoutbox', { 'mode': 7 } ),
+   (r'^add-news/(?P<plugin_id>\d+)/$', 'wtvforms.views.wtv_add_shoutbox_content'),
+   url(r'^add-news/', 'wtvforms.views.wtv_add_shoutbox', { 'mode': 6 } ),
 )
