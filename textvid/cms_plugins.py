@@ -5,6 +5,7 @@ from textvid.models import TextVidModel
 from django.utils.translation import ugettext as _
 from cms.plugins.text.cms_plugins import TextPlugin
 from urlparse import urlparse,parse_qs
+from django.core.exceptions import ValidationError
 
 
 class TextVidPlugin(TextPlugin):
@@ -22,7 +23,11 @@ class TextVidPlugin(TextPlugin):
       def clean_youtube_id(self):
         youtube_url = urlparse(self.cleaned_data['youtube_id'])
         params = parse_qs(youtube_url.query)
-        return params['v'][0] 
+        try:
+          return params['v'][0]
+        except KeyError:
+          raise ValidationError(u'You did not enter a valid youtube id.')
+          
 
     widget = self.get_editor_widget(request, plugins)
     TextPluginForm.declared_fields["body"] = CharField(widget=widget, required=False)

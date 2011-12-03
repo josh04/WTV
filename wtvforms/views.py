@@ -64,7 +64,7 @@ def wtv_add_entry(request):
   return render_to_response('wtvforms/wtv_add_entry.html', {'form': form }, context_instance=RequestContext(request) )
 
 @permission_required('zinnia.add_entry')
-def wtv_add_entry_content(request, plugin_id):
+def wtv_add_entry_content(request, plugin_id, message=''):
 #  plugin = get_object_or_404(CMSPlugin, pk=plugin_id)
 
   try:
@@ -82,10 +82,12 @@ def wtv_add_entry_content(request, plugin_id):
       context = RequestContext(request)
       entry.content = render_placeholder(entry.content_placeholder, context)
       entry.save()
-      return HttpResponseRedirect(reverse('wtvforms.views.wtv_add_entry_content', args=(plugin.id,)))
+      message = _('The video has been added to the site.')
+    else:
+      message = _('The video has not been added to the site.')
   else :
     form = formClass(instance=plugin)
-  return render_to_response('wtvforms/wtv_add_entry_content.html', {'form': form}, context_instance=RequestContext(request) )
+  return render_to_response('wtvforms/wtv_add_entry_content.html', {'form': form, 'message': message }, context_instance=RequestContext(request) )
 
 @permission_required('zinnia.add_entry')
 def wtv_add_shoutbox(request, mode):

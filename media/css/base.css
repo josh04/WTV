@@ -4,8 +4,8 @@ body {
   font-family: TrebuchetMS, Verdana, Arial;
   font-size: 12px;
   text-align: center;
-/*  background: url('/media/texture.png') rgb(126, 159, 248);*/
-  background: #CFCFCF;
+  background: url('/media/wtv-rings.png') rgb(255, 255, 255) no-repeat;
+/*  background: #CFCFCF;*/
 /* page resizing with scrollbar appear/disappear */
   overflow-y: scroll;
   padding:0;
@@ -52,7 +52,7 @@ h3 {
 #wrapper {
   text-align: left;
  /* background: url('/media/bg.png') rgb(143, 149, 149) repeat-x;*/
-  background: #fff;
+  background: rgba(255, 255, 255, 0.5);
   margin: 0 auto;
   padding: 0px 0 15px 0;
   -webkit-border-bottom-right-radius: 8px;
@@ -478,7 +478,7 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
 
 #banner {
  /* background: url('/media/banner.jpg') no-repeat left center;*/
-  background: #fff;
+  background: rgba(255, 255, 255, 0.0);
   margin: 0px 0px 15px 0px;
   height: 200px;
 }
@@ -889,4 +889,11 @@ form.dropdown-login input {
   font: 13px Arial, Helvetica, sans-serif;
   padding: 6px 6px 2px 4px;
   width: 170px;
+}
+
+.message {
+  border: 0px solid #E00;
+  background-color: rgba(255, 240, 240, 1);
+  padding: 8px;
+  margin: 2px 15px 4px -15px;
 }
