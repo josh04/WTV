@@ -5,3 +5,4 @@ wtvsettings/Private.py
 apache/django.wsgi
 .DS_Store
 BBedit/
+*.sqlite
