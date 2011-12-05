@@ -6,3 +6,4 @@ django-cms==2.2
 djangocms-utils==0.9.5
 PIL==1.1.7
 django-cbv==0.2
+cmsplugin-youtube==0.1.5-alpha-1
