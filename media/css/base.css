@@ -657,13 +657,12 @@ p.comments {
 }
 
 #about-menu {
-  height: 66px;
   overflow:hidden;
 }
 
 #get-involved-menu {
   overflow:hidden;
-  height: 165px;  /* ugly but necessary for jquery slide */
+  /*height: 165px;  /* ugly but necessary for jquery slide */
 }
 
 #members-menu {
