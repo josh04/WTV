@@ -1,0 +1,1680 @@
+[
+    {
+        "pk": 6, 
+        "model": "zinnia.category", 
+        "fields": {
+            "rght": 2, 
+            "description": "", 
+            "parent": null, 
+            "title": "News", 
+            "level": 0, 
+            "lft": 1, 
+            "tree_id": 1, 
+            "slug": "miscellaneous"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "zinnia.category", 
+        "fields": {
+            "rght": 2, 
+            "description": "", 
+            "parent": null, 
+            "title": "One To Watch", 
+            "level": 0, 
+            "lft": 1, 
+            "tree_id": 2, 
+            "slug": "sport"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "zinnia.category", 
+        "fields": {
+            "rght": 2, 
+            "description": "", 
+            "parent": null, 
+            "title": "Shoutbox", 
+            "level": 0, 
+            "lft": 1, 
+            "tree_id": 3, 
+            "slug": "shoutbox"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "zinnia.category", 
+        "fields": {
+            "rght": 2, 
+            "description": "", 
+            "parent": null, 
+            "title": "WTV Arts & Culture", 
+            "level": 0, 
+            "lft": 1, 
+            "tree_id": 5, 
+            "slug": "wtv-arts-culture"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "zinnia.category", 
+        "fields": {
+            "rght": 2, 
+            "description": "", 
+            "parent": null, 
+            "title": "WTV Entertainment", 
+            "level": 0, 
+            "lft": 1, 
+            "tree_id": 6, 
+            "slug": "wtv-entertainment"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "zinnia.category", 
+        "fields": {
+            "rght": 2, 
+            "description": "", 
+            "parent": null, 
+            "title": "WTV Events", 
+            "level": 0, 
+            "lft": 1, 
+            "tree_id": 7, 
+            "slug": "wtv-events"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "zinnia.category", 
+        "fields": {
+            "rght": 2, 
+            "description": "", 
+            "parent": null, 
+            "title": "WTV Film", 
+            "level": 0, 
+            "lft": 1, 
+            "tree_id": 8, 
+            "slug": "wtv-film"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "zinnia.category", 
+        "fields": {
+            "rght": 2, 
+            "description": "", 
+            "parent": null, 
+            "title": "WTV News & Documentary", 
+            "level": 0, 
+            "lft": 1, 
+            "tree_id": 9, 
+            "slug": "wtv-news-documentary"
+        }
+    }, 
+    {
+        "pk": 118, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "With regards to the allegations made against WTV during the SU General Meeting, no official representative of WTV did or would ever ask a member of the public to stage a response that was not his or her own in order to influence a political vote. Any member that may ...", 
+            "related": [], 
+            "creation_date": "2011-11-29 23:45:33", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 253, 
+            "comment_enabled": true, 
+            "title": "bombombomb", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-30 14:24:09", 
+            "content": "<div style='clear:both'></div>\n<div class='post'>\n<p>With regards to the allegations made against WTV during the SU General Meeting, no official representative of WTV did or would ever ask a member of the public to stage a response that was not his or her own in order to influence a political vote. Any member that may act independently of the director in this manner does so entirely autonomously. If this does occur, WTV apologises but their views and actions are not representative of WTV. However, in light of this case, WTV has been encouraged to impose a code of conduct so that no such situation will occur in future.</p>\n</div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-11-29 23:45:33", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                5
+            ], 
+            "password": "", 
+            "slug": "bombombomb", 
+            "categories": [
+                7
+            ]
+        }
+    }, 
+    {
+        "pk": 117, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "", 
+            "related": [], 
+            "creation_date": "2011-11-29 20:56:17", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 252, 
+            "comment_enabled": true, 
+            "title": "dramabomb", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-29 20:56:17", 
+            "content": "<div style='clear:both'></div>\n<div class='post'>\n<p>After issues of bias were reported, Warwick TV retracted its video on the Barcardi debate until further notice.</p>\n</div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-11-29 20:56:17", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "dramabomb", 
+            "categories": [
+                7
+            ]
+        }
+    }, 
+    {
+        "pk": 116, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "", 
+            "related": [], 
+            "creation_date": "2011-11-24 02:38:32", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 251, 
+            "comment_enabled": true, 
+            "title": "NEWS: Warwick SU Boycott Bacardi Debate", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-24 12:21:12", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/PGE1ZVNxomg\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'>Coverage of the debate generated by the movement passed by Warwick's SU proposing to 'Boycott Bacardi'.<br style=\"font-family: arial, sans-serif; font-size: 13px; line-height: 18px; text-align: left; background-color: rgb(255, 255, 255);\"/></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-11-24 02:38:32", 
+            "status": 1, 
+            "tags": "video", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "news-warwick-su-boycott-bacardi-debate", 
+            "categories": [
+                5
+            ]
+        }
+    }, 
+    {
+        "pk": 115, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "The One To Watch brings you exclusive coverage of Warwick's Mens Volleyball vs Loughborough University", 
+            "related": [], 
+            "creation_date": "2011-11-23 18:26:58", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 250, 
+            "comment_enabled": true, 
+            "title": "The One To Watch - Mens Volleyball", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-12-05 17:46:42", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/ejLmV3mSQjY\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>The One To Watch brings you exclusive coverage of Warwick's Mens Volleyball vs Loughborough University</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-11-23 18:26:58", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                5
+            ], 
+            "password": "", 
+            "slug": "the-one-to-watch-mens-volleyball", 
+            "categories": [
+                9
+            ]
+        }
+    }, 
+    {
+        "pk": 112, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "The One To Watch brings you exclusive coverage of Warwick's Rugby League team in a local derby against Coventry.", 
+            "related": [], 
+            "creation_date": "2011-11-21 19:23:52", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 247, 
+            "comment_enabled": true, 
+            "title": "The One To Watch: Rugby League", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-12-05 17:46:48", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/r4HGA9r0NiE\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>\u00a0The One To Watch brings you exclusive coverage of Warwick's Rugby League team in a local derby against Coventry.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-11-21 19:23:52", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                5
+            ], 
+            "password": "", 
+            "slug": "the-one-to-watch-rugby-league", 
+            "categories": [
+                9
+            ]
+        }
+    }, 
+    {
+        "pk": 111, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "", 
+            "related": [], 
+            "creation_date": "2011-11-21 19:21:01", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 246, 
+            "comment_enabled": true, 
+            "title": "Who Said Anything About Questions?", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-22 13:07:58", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/Rm_wIdpDJiA\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>\u00a0A short preview of the upcoming WTV game show, 'Who Said Anything About Questions?'</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-11-21 19:21:01", 
+            "status": 1, 
+            "tags": "video", 
+            "authors": [
+                5
+            ], 
+            "password": "", 
+            "slug": "who-said-anything-about-questions", 
+            "categories": [
+                2
+            ]
+        }
+    }, 
+    {
+        "pk": 110, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "The News Team take us down to the piazza to interview Warwick Amnesty in their protest against the death penalty.", 
+            "related": [], 
+            "creation_date": "2011-11-21 17:53:37", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 245, 
+            "comment_enabled": true, 
+            "title": "Warwick Amnesty Protest", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-21 17:56:28", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/27jcL0nqB6Q\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>\u00a0The News Team take us down to the piazza to interview Warwick Amnesty in their protest against the death penalty.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-11-21 17:53:37", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                5
+            ], 
+            "password": "", 
+            "slug": "warwick-amnesty-protest", 
+            "categories": [
+                5
+            ]
+        }
+    }, 
+    {
+        "pk": 107, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "Its been a while now since the UK riots. I think its time we all learn how to start a riot.", 
+            "related": [], 
+            "creation_date": "2011-11-16 16:51:38", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 242, 
+            "comment_enabled": true, 
+            "title": "HOW TO START A RIOT: step two", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-19 03:50:10", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/Jhw0QzgfHKo\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>Its been a while now since the UK riots. I think its time we all learn how to start a riot.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-11-16 16:51:38", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "how-to-start-a-riot-step-two", 
+            "categories": [
+                1
+            ]
+        }
+    }, 
+    {
+        "pk": 105, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "", 
+            "related": [], 
+            "creation_date": "2011-11-08 11:29:38", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 240, 
+            "comment_enabled": true, 
+            "title": "SUMMER PARTY 2011: Labrinth Interview", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-08 11:29:38", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/41wdcRXvgX8\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>\u00a0WTV brings you exclusive interviews with the acts from the Summer Party \n2011. Venetia talks to Labrinth on his latest single, Glastonbury and \nbeing the hardest working man in music.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-11-08 11:29:38", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                5
+            ], 
+            "password": "", 
+            "slug": "summer-party-2011-labrinth-interview", 
+            "categories": [
+                4
+            ]
+        }
+    }, 
+    {
+        "pk": 87, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "WTV brings you exclusive interviews with the acts from the Summer Party 2011. Venetia talks to Feeder on their next album, the changing face of the music industry and their on/off tour love of drinking.", 
+            "related": [], 
+            "creation_date": "2011-11-06 18:39:03", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 220, 
+            "comment_enabled": true, 
+            "title": "SUMMER PARTY 2011: Feeder Interview", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-06 20:32:10", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/kDiPpcjeJck\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>WTV brings you exclusive interviews with the acts from the Summer Party \n2011. Venetia talks to Feeder on their next album, the changing face of \nthe music industry and their on/off tour love of drinking.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-11-06 18:39:03", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                5
+            ], 
+            "password": "", 
+            "slug": "summer-party-2011-feeder-interview", 
+            "categories": [
+                4
+            ]
+        }
+    }, 
+    {
+        "pk": 86, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "WTV brings you exclusive interviews with the acts from the Summer Party 2011. Venetia talks to Labrinth on his latest single, Glastonbury and being the hardest working man in music.", 
+            "related": [], 
+            "creation_date": "2011-11-06 16:57:04", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 219, 
+            "comment_enabled": true, 
+            "title": "SUMMER PARTY 2011: Labrinth Interview ", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-06 18:49:02", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/4dQ8L7riwKg\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>WTV brings you exclusive interviews with the acts from the Summer Party 2011. Venetia talks to Labrinth on his latest single, Glastonbury and being the hardest working man in music.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-11-06 16:57:04", 
+            "status": 0, 
+            "tags": "video", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "summer-party-2011-labrinth-interview", 
+            "categories": [
+                4
+            ]
+        }
+    }, 
+    {
+        "pk": 83, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "Today is the end of the world - I hope you're all ready to come and take part!The live event set up will be starting at 5pm onwards as we set up all the technical equipment. If you are interested in the technical side, meet us at 4.15 in the ...", 
+            "related": [], 
+            "creation_date": "2011-11-03 11:09:11", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 216, 
+            "comment_enabled": true, 
+            "title": "End of the World", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-03 12:54:48", 
+            "content": "<div style='clear:both'></div>\n<div class='post'>\n<p>Today is the end of the world - I hope you're all ready to come and take part!<br/><br/>The live event set up will be starting at 5pm onwards as we set up all the technical equipment.\u00a0<br/><br/>If you are interested in the technical side, meet us at 4.15 in the WTV office (SUHQ up the stairs).<br/><br/>We start the broadcast at 7pm, so zombies and presenters please be here for this time!<br/><br/>Enjoy your last day on Earth.</p>\n</div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-11-03 11:09:11", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "end-of-the-world", 
+            "categories": [
+                7
+            ]
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "Did you miss out on the London riots?&#160;No worries :-)", 
+            "related": [], 
+            "creation_date": "2011-10-27 12:37:02", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 114, 
+            "comment_enabled": true, 
+            "title": "How To Start a Riot", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-03 01:30:03", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/PCiE_I21MB4\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><div></span></div><p>Did you miss out on the London riots?&#160;</span></p><p>No worries :-)</span></p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-10-27 12:37:02", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "how-start-riot", 
+            "categories": [
+                1
+            ]
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "The Olympic Torch comes to Warwick University. Tom Davies reports...", 
+            "related": [], 
+            "creation_date": "2011-10-25 17:42:12", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 110, 
+            "comment_enabled": true, 
+            "title": "Olympic Torch", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-03 01:29:58", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/1LBY-NIBPLs\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>The Olympic Torch comes to Warwick University. Tom Davies reports...</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-10-25 17:42:12", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                5
+            ], 
+            "password": "", 
+            "slug": "olympic-torch", 
+            "categories": [
+                5
+            ]
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "WUDS: The Real Thing TrailerAn INC Production.", 
+            "related": [], 
+            "creation_date": "2011-10-19 14:15:29", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 108, 
+            "comment_enabled": true, 
+            "title": "The Real Thing: Trailer", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-03 01:29:53", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/B8NxKt94lO0\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>WUDS: The Real Thing Trailer</p><p>An INC Production.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-10-19 14:15:29", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "real-thing-trailer", 
+            "categories": [
+                2
+            ]
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "WUDS: The Real Thing Diary - Episode #2 An INC Production.", 
+            "related": [], 
+            "creation_date": "2011-10-19 14:14:02", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 106, 
+            "comment_enabled": true, 
+            "title": "The Real Thing Diary: Episode 2", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-03 01:27:40", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/l9Zexo1Bo5k\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>WUDS: The Real Thing Diary - Episode #2 </p><p>An INC Production.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-10-19 14:14:02", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "real-thing-diary-episode-2", 
+            "categories": [
+                2
+            ]
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "WUDS: The Real Thing Diary - Episode #1An INC Production.", 
+            "related": [], 
+            "creation_date": "2011-10-19 14:12:13", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 104, 
+            "comment_enabled": true, 
+            "title": "The Real Thing Diary: Episode 1", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-03 01:27:30", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/hMLPsH3RgiQ\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>WUDS: The Real Thing Diary - Episode #1</p><p>An INC Production.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-10-19 14:12:13", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "real-thing-diary-episode-1", 
+            "categories": [
+                2
+            ]
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "ddWant to keep up to date with all the relevant WTV news and opportunities for the role you want to perform? Get updates from all the relevant sections of WTV:&#160;Editors: https://www.facebook.com/groups/217370928290155/&#160;Writers &amp; Researchers: https://www.facebook.com/groups/198659806842235/&#160;Presenters &amp; Actors: https://www.facebook.com/groups/145496398854428/&#160;Camera Operators:&#160;", 
+            "related": [], 
+            "creation_date": "2011-10-15 10:18:34", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 102, 
+            "comment_enabled": true, 
+            "title": "Join WTV Lists!", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-01 13:44:47", 
+            "content": "<div style='clear:both'></div>\n<div class='post'>\n<p>Want to keep up to date with all the relevant WTV news and opportunities for the role you want to perform? Get updates from all the relevant sections of WTV:&#160;</p><p>Editors:&#160;<a href=\"https://www.facebook.com/groups/217370928290155/\" style=\"cursor: pointer; color: rgb(59, 89, 152); text-decoration: none; \"><span>https://www.facebook.com/group</span></span>s/217370928290155/</a></span></p><p>Writers &amp; Researchers:&#160;<a href=\"https://www.facebook.com/groups/198659806842235/\" style=\"cursor: pointer; color: rgb(59, 89, 152); text-decoration: none; \"><span>https://www.facebook.com/group</span></span>s/198659806842235/</a></span></p><p>Presenters &amp; Actors:&#160;<a href=\"https://www.facebook.com/groups/145496398854428/\" style=\"cursor: pointer; color: rgb(59, 89, 152); text-decoration: none; \"><span>https://www.facebook.com/group</span></span>s/145496398854428/</a></span></p><p>Camera Operators:&#160;<a href=\"https://www.facebook.com/groups/170661126322793/\" style=\"cursor: pointer; color: rgb(59, 89, 152); text-decoration: none; \"><span>https://www.facebook.com/group</span>s/170661126322793/</a></p>\n</div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-10-15 10:18:34", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                5
+            ], 
+            "password": "", 
+            "slug": "join-wtv-lists", 
+            "categories": [
+                6
+            ]
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "http://www.youtube.com/watch?v=qCt5yfwhPXI", 
+            "related": [], 
+            "creation_date": "2011-10-14 23:02:07", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 100, 
+            "comment_enabled": true, 
+            "title": "The Verona Diaries - 1", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-03 01:29:48", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/qCt5yfwhPXI\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>Emily Horler is taking her year abroad in Verona. She is compiling a diary of her experiences and sending them back over to us at Warwick TV.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-10-14 23:02:07", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                5
+            ], 
+            "password": "", 
+            "slug": "verona-diaries-1", 
+            "categories": [
+                2
+            ]
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "A promotional video for Warwick Nightline, produced in association with Warwick TV.", 
+            "related": [], 
+            "creation_date": "2011-10-14 10:51:28", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 96, 
+            "comment_enabled": true, 
+            "title": "Nightline", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-03 01:29:43", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/JuU36bQhujY\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>A promotional video for Warwick Nightline, produced in association with Warwick TV.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-10-14 10:51:28", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "nightline", 
+            "categories": [
+                5
+            ]
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "WTV Welcome Meeting + Taster Session with workshops in Camera Basics, Presenting and Basic Film Theory will be on WEDNESDAY, WEEK 2 @ 4pm in H0.52 (Humanities). I know there was some confusion about the time, but it is most certainly at 4pm now. Apologies for any inconvenience caused!", 
+            "related": [], 
+            "creation_date": "2011-10-07 13:03:35", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 83, 
+            "comment_enabled": true, 
+            "title": "Warwick TV Welcome Meeting", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-08 01:54:51", 
+            "content": "<div style='clear:both'></div>\n<div class='post'>\n<p>WTV Welcome Meeting + Taster Session with workshops in Camera Basics, \r\nPresenting and Basic Film Theory will be on WEDNESDAY, WEEK 2 @ 4pm in \r\nH0.52 (Humanities). </p><p>I know there was some confusion about the time, but it is most certainly at 4pm now. Apologies for any inconvenience caused!</p>\n</div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-10-07 13:03:35", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "warwick-tv-welcome-meeting", 
+            "categories": [
+                7
+            ]
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "Warwick TV takes you down to the piazza, to talk to the Freshers on their first 2 days at Warwick University.", 
+            "related": [], 
+            "creation_date": "2011-10-07 13:00:03", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 81, 
+            "comment_enabled": true, 
+            "title": "Warwick Freshers 2011", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-03 01:29:34", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/vx9uV-Pdfqs\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><div id=\"watch-description-text\">\r\n        <p id=\"eow-description\">Warwick TV takes you down to the piazza, to talk to the Freshers on their first 2 days at Warwick University.</p>\r\n      </div></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-10-07 13:00:03", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "warwick-freshers-2011", 
+            "categories": [
+                4
+            ]
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "Join WarwickTV! The only video production society at Warwick University. Start your career in the media; learn how to edit, practice presenting, make short films, light entertainment, documentary, cover arts, culture and events.Watch it. Make it. Be it. Warwick TV.", 
+            "related": [], 
+            "creation_date": "2011-10-05 01:54:54", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 73, 
+            "comment_enabled": true, 
+            "title": "Warwick TV Promo", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-03 01:29:30", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/Owhh3lChODA\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><div id=\"watch-description-text\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; background-image: initial; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: transparent; font-size: 1.09em; line-height: 1.4; background-position: initial initial; \"><p id=\"eow-description\" style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; font-size: 100%; background-image: initial; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: transparent; background-position: initial initial; \">Join WarwickTV! The only video production society at Warwick University. Start your career in the media; learn how to edit, practice presenting, make short films, light entertainment, documentary, cover arts, culture and events.<br /><br />Watch it. Make it. Be it. Warwick TV.</p></div><div id=\"watch-description-extras\" style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; font-size: 100%; background-image: initial; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: transparent; margin-top: 1em; background-position: initial initial; \"></div></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-10-05 01:54:54", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "warwick-tv-promo", 
+            "categories": []
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "Content Add Pluginarrow Available plugins File Google Map Link Picture Poll Plugin Snippet Text Twitter Twitter Search WTV Video YouTube Entries Latest entries Random entries Selected entries", 
+            "related": [], 
+            "creation_date": "2011-09-28 14:44:28", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 69, 
+            "comment_enabled": true, 
+            "title": "Welcome", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-09-28 15:32:17", 
+            "content": "<div style='clear:both'></div>\n<div class='post'>\n<p>Warwick TV welcomes new freshers!</p>\n</div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-09-28 14:44:28", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "welcome-warwick", 
+            "categories": [
+                7
+            ]
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "Content Add Pluginarrow Available plugins File Google Map Link Picture Poll Plugin Snippet Text Twitter Twitter Search WTV Video YouTube Entries Latest entries Random entries Selected entries", 
+            "related": [], 
+            "creation_date": "2011-09-11 19:20:39", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 59, 
+            "comment_enabled": true, 
+            "title": "Welcome Freshers 2011!", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-10 17:27:25", 
+            "content": "<div style='clear:both'></div>\n<div class='post'>\n<p>Welcome Warwick Freshers 2011! This is the new website for the Warwick TV society.</p>\n</div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-09-11 19:20:39", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "welcome-freshers-2011", 
+            "categories": []
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "What what.", 
+            "related": [], 
+            "creation_date": "2011-09-03 13:52:50", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 54, 
+            "comment_enabled": true, 
+            "title": "The Good Food Society: Chocolate Making Workshop", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-11-03 01:29:24", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/46zfDiOcOTg\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>Warwick TV\u2019s Entertainment team checked out the Good Food Society\u2019s valentine chocolate making night \u2013 messy!</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-09-03 13:52:50", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "test", 
+            "categories": [
+                3
+            ]
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "One of the VTs for our Highly commended NaSTA award winning coverage of the student union elections. David Oppenheim interviews the current SU president Daniel Stevens about his own election experience and his role as the president.", 
+            "related": [], 
+            "creation_date": "2011-04-26 14:03:11", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 51, 
+            "comment_enabled": true, 
+            "title": "Big D 2011- Interview with SU president, Daniel Stevens ", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-10 17:14:50", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/h7RS18yAkak\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>One of the VTs for our Highly commended NaSTA award winning coverage of the student union elections. David Oppenheim interviews the current SU president Daniel Stevens about his own election experience and his role as the president.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-04-26 14:03:11", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "big-d-2011-interview-with-su-president-daniel-stevens", 
+            "categories": [
+                4, 
+                5
+            ]
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "One of the VTs for our Highly commended NaSTA award winning coverage of the student union elections. Warwick TV follows the candidates in the lead up to the elections as they campaigned to secure votes.", 
+            "related": [], 
+            "creation_date": "2011-04-26 14:00:45", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 50, 
+            "comment_enabled": true, 
+            "title": "Big D 2011- Campaign trail ", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-10 17:15:10", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/1Vwo2jKv59Q\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>One of the VTs for our Highly commended NaSTA award winning coverage of the student union elections. Warwick TV follows the candidates in the lead up to the elections as they campaigned to secure votes.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-04-26 14:00:45", 
+            "status": 2, 
+            "tags": "video", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "big-d-2011-campaign-trail", 
+            "categories": [
+                4, 
+                5
+            ]
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "One of the VTs for our Highly commended NaSTA award winning coverage of the student union elections. Chris Hackett and Matthew Cullum explain what the sabbatical officers' roles actually entail.", 
+            "related": [], 
+            "creation_date": "2011-04-26 13:56:43", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 49, 
+            "comment_enabled": true, 
+            "title": "Big D 2011- Roles explanation ", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-08 03:05:42", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/Vab6HMZaQcM\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>One of the VTs for our Highly commended NaSTA award winning coverage of the student union elections. Chris Hackett and Matthew Cullum explain what the sabbatical officers\u2019 roles actually entail.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-04-26 13:56:43", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "big-d-2011-roles-explanation", 
+            "categories": [
+                4, 
+                5
+            ]
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "One of the VTs for our Highly commended NaSTA award winning coverage of the student union elections. Sonamjeet Narwan and Natasha Jones talk to students about the upcoming elections.", 
+            "related": [], 
+            "creation_date": "2011-04-26 13:49:41", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 48, 
+            "comment_enabled": true, 
+            "title": "Big D 2011- Student voxpops ", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-08 02:58:42", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/iA3J5yL4JsA\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>One of the VTs for our Highly commended NaSTA award winning coverage of the student union elections. Sonamjeet Narwan and Natasha Jones talk to students about the upcoming elections.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-04-26 13:49:41", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "big-d-2011-student-voxpops", 
+            "categories": [
+                4, 
+                5
+            ]
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "Warwick TV presents the edit of its live Highly Commended NaSTA award winning coverage of the student union elections", 
+            "related": [], 
+            "creation_date": "2011-04-26 13:38:37", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 47, 
+            "comment_enabled": true, 
+            "title": "Big D 2011 ", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-08 02:58:53", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/VbiSD6ZsiZo\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>Warwick TV presents the edit of its live Highly Commended NaSTA award winning coverage of the student union elections</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-04-26 13:38:37", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "big-d-2011", 
+            "categories": [
+                4, 
+                5
+            ]
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "Film by George Hayward, brought to you by WTV Film.", 
+            "related": [], 
+            "creation_date": "2011-04-03 23:10:55", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 45, 
+            "comment_enabled": true, 
+            "title": "WTV Film presents 'Biopsy: Sebastian Cassidy'", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-08 02:59:23", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/q9h5AGT5w2c\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>Film by George Hayward, brought to you by WTV Film.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-04-03 23:10:55", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "wtv-film-presents-biopsy-sebastian-cassidy", 
+            "categories": [
+                1
+            ]
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "Watch what happened on the night here. Uploaded with ImageShack.us", 
+            "related": [], 
+            "creation_date": "2011-02-12 16:00:51", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 44, 
+            "comment_enabled": true, 
+            "title": "The Big Decision 2011 - Warwick Student's Union Election Coverage", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-09-11 17:54:15", 
+            "content": "<div><h3 style=\"font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, sans-serif; font-weight: bold; font-size: 1.3em; color: rgb(51, 51, 51); text-decoration: none; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 30px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; \">Watch what happened on the night<a href=\"http://www.ustream.tv/recorded/12651121\" style=\"color: rgb(51, 51, 51); text-decoration: none; \">&#160;here.</a></h3><p><a title=\"ImageShack - Image And Video Hosting\" href=\"http://img52.imageshack.us/i/17618710150388738020230.jpg/\" style=\"color: rgb(0, 102, 204); text-decoration: none; \"><img src=\"http://img52.imageshack.us/img52/4430/17618710150388738020230.jpg\" style=\"padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; max-width: 100%; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-width: initial; border-color: initial; \" /></a></p><p><a title=\"ImageShack - Image And Video Hosting\" href=\"http://img405.imageshack.us/i/17601410150409182865724.jpg/\" style=\"color: rgb(0, 102, 204); text-decoration: none; \"><img src=\"http://img405.imageshack.us/img405/2577/17601410150409182865724.jpg\" style=\"padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; max-width: 100%; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-width: initial; border-color: initial; \" /></a></p><p><a title=\"ImageShack - Image And Video Hosting\" href=\"http://img217.imageshack.us/i/17514610150385519940725.jpg/\" style=\"color: rgb(0, 102, 204); text-decoration: none; \"><img src=\"http://img217.imageshack.us/img217/2802/17514610150385519940725.jpg\" style=\"padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; max-width: 100%; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-width: initial; border-color: initial; \" /></a></p><p><a title=\"ImageShack - Image And Video Hosting\" href=\"http://img851.imageshack.us/i/17248810150385524340725.jpg/\" style=\"color: rgb(0, 102, 204); text-decoration: none; \"><img src=\"http://img851.imageshack.us/img851/9624/17248810150385524340725.jpg\" style=\"padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; max-width: 100%; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-width: initial; border-color: initial; \" /></a></p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-02-12 16:00:51", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "the-big-decision-2011-warwick-students-union-election-coverage", 
+            "categories": [
+                4, 
+                5
+            ]
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "Max Gogarty, Aranya Rauff Nisthar and Lawrence Hunt cover the first student protests - EXCLUSIVE UNSEEN MILLBANK FOOTAGE", 
+            "related": [], 
+            "creation_date": "2011-02-03 16:57:28", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 42, 
+            "comment_enabled": true, 
+            "title": "The Student Protests 2010", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-08 03:05:55", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/nborrAUTfzk\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>Max Gogarty, Aranya Rauff Nisthar and Lawrence Hunt cover the first student protests \u2013 EXCLUSIVE UNSEEN MILLBANK FOOTAGE</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-02-03 16:57:28", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "the-student-protests-2010", 
+            "categories": [
+                5
+            ]
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "WTV Entertainment has been playing matchmaker in WTV's very own StreetMate.", 
+            "related": [], 
+            "creation_date": "2011-01-31 13:08:51", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 43, 
+            "comment_enabled": true, 
+            "title": "WTV StreetMate", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-08 03:00:10", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/KxVgDYyIQoI\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>WTV Entertainment has been playing matchmaker in WTV\u2019s very own StreetMate.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-01-31 13:08:51", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "wtv-streetmate", 
+            "categories": [
+                3
+            ]
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "The Sabb Elections are about to get started! It is a crazy time (our current president apparently didn't sleep for a week and lived on Red Bull during his campaign...) WTV is capturing everything that happens this year. This is the largest live event for 2011 so we require a ...", 
+            "related": [], 
+            "creation_date": "2011-01-26 10:44:39", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 41, 
+            "comment_enabled": true, 
+            "title": "The Big D", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-08 04:05:13", 
+            "content": "<div style='clear:both'></div>\n<div class='post'>\n<div class=\"entry\" style=\"line-height: 1.4em; \"><p>The Sabb Elections are about to get started! It is a crazy time (our current president apparently didn\u2019t sleep for a week and lived on Red Bull during his campaign\u2026) WTV is capturing everything that happens this year. This is the largest live event for 2011 so we require a massive crew made up of all our members. Again, do not worry if you have never done it before, we\u2019ll teach you on the day.</p><p>We are looking for the following:<br />Techies (anyone with knowledge of tech/electronics)<br />Presenters,<br />Camera operators<br />Set-up crew<br />Set designers<br />Editors<br />Floor mangers (who are like assistant directors),<br />Runners,<br />VT operator (the person who controls the visual transitions i.e. the pre-recorded footage), researcher/script writers (for all you aspiring journalists and writers)</p><p><strong>Auditions for presenting \u2013 Wednesday week 4</strong><br />If you are interested in presenting, we are holding auditions on Wednesday the 2nd 14.30-17.30 in h2.03.</p><p>WHO WE ARE LOOKING FOR?</p><p>TWO ANCHORS (One male, One female): These two people will act as our lead presenters, tying everything together by introducing each segment. They will also be interviewing the newly elected Sabbs. as soon as they are announced. A script will be provided but you are expected to bring your own style to it and to ad-lib if necessary, especially in the interviews where you will only be given a general idea of what to ask. We will be auditioning people separately and then pairing people up for a second round straight after. However, it is also possible for people to audition in pairs if they wish.</p><p>LIVE LOUNGE PRESENTER: This presenter will be slightly more \u2018light entertainment\u2019 than the Anchors and will be working alongside a \u2018panel\u2019 of voters who you\u2019ll interact with in order to gauge their reactions throughout the night. Your predominant role will be to fill in the time that it takes for the Sabb. to get from stage to studio for their interview. You will also have a more major interview of your own in the middle of the show. This person has to be personable, energetic and a fast thinker; you will have next to no script so the ability to ad lib is absolutely key.</p><p>GREEN SCREEN PRESENTER: This presenter will be in charge of delivering and, more importantly, analysing the polls in a direct, concise and engaging manner. Working alongside the graphics, this presenter will also have to be very aware of their presence on screen, ensuring that all the visual information is conveyed effectively.</p><p>So, if you think you\u2019d suit any of these roles, come join us WEDNESDAY, WEEK 4 in H2.03 at 2.30pm where we\u2019ll start off the auditioning process.</p></div>\n</div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-01-26 10:44:39", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "the-big-d", 
+            "categories": [
+                6, 
+                5
+            ]
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "Please join the Arts &amp; Culture Facebook group to find out specific ways to get involved in the department, discuss new and potential projects and generally keep in touch.", 
+            "related": [], 
+            "creation_date": "2011-01-23 01:45:06", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 40, 
+            "comment_enabled": true, 
+            "title": "Arts & Culture FB group", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-09-13 22:14:04", 
+            "content": "<div style='clear:both'></div>\n<div class='post'>\n<div class=\"entry\" style=\"line-height: 1.4em; \"><p>Please join the&#160;<a href=\"http://www.facebook.com/#!/home.php?sk=group_164154493613294&amp;ap=1\">Arts &amp; Culture Facebook group</a>&#160;to find out specific ways to get involved in the department, discuss new and potential projects and generally keep in touch.</p></div>\n</div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-01-23 01:45:06", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "arts-culture-fb-group", 
+            "categories": [
+                6, 
+                2
+            ]
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "In this One to Watch feature we visit Latin and Ballroom dancing.", 
+            "related": [], 
+            "creation_date": "2011-01-23 01:27:21", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 39, 
+            "comment_enabled": true, 
+            "title": "One to Watch", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-08 03:00:27", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/unGr28i23X0\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p style=\"font-size: 1.05em; \">In this One to Watch feature we visit Latin and Ballroom dancing.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-01-23 01:27:21", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "one-to-watch", 
+            "categories": [
+                2
+            ]
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "In this documentary, WTV explores homelessness in Royal Leamington Spa.", 
+            "related": [], 
+            "creation_date": "2011-01-23 01:24:45", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 38, 
+            "comment_enabled": true, 
+            "title": "Homelessness", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-08 03:00:42", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/s0DSJ5WEJ1s\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>In this documentary, WTV explores homelessness in Royal Leamington Spa.</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-01-23 01:24:45", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "homelessness", 
+            "categories": [
+                5
+            ]
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "hhyttyu", 
+            "related": [], 
+            "creation_date": "2011-01-22 20:22:10", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 56, 
+            "comment_enabled": true, 
+            "title": "The Ultimate Film Making Challenge: Runner Up", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-11 13:29:57", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/l_vhNFzsoy0\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>The Ultimate Film Making Challenge: Runner Up</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-09-10 01:51:25", 
+            "status": 1, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "ultimate-film-making-challenge-runner", 
+            "categories": []
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "In Term 1 of the 2010/2011 academic year the film department held the Ultimate Film Making Challenge. Two teams competed, writing, filming and editing a short film in 7 weeks. The Winner: Timeshed The Runner Up: Waiting For Dusk", 
+            "related": [], 
+            "creation_date": "2011-01-22 20:22:09", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 37, 
+            "comment_enabled": true, 
+            "title": "The Ultimate Film Making Challenge", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-11 16:08:04", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/kdwmIxmVHfA\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>In Term 1 of the 2010/2011 academic year the film department held the Ultimate Film Making Challenge. Two teams competed, writing, filming and editing a short film in 7 weeks.</p><p>The Winner:</p></div>\n\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/l_vhNFzsoy0\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>Runner Up</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-01-22 20:22:09", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "the-ultimate-film-making-challenge", 
+            "categories": [
+                1
+            ]
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "Tequila Sunrise \u2013 a Shortfilm", 
+            "related": [], 
+            "creation_date": "2011-01-22 20:18:03", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 36, 
+            "comment_enabled": true, 
+            "title": "Tequila Sunrise - a Shortfilm", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-11 13:28:14", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/xNLwHDx1ypE\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>Tequila Sunrise \u2013 a Shortfilm</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-01-22 20:18:03", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "tequila-sunrise-a-shortfilm", 
+            "categories": [
+                1
+            ]
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "Warwick TV Presents Freshers 2010", 
+            "related": [], 
+            "creation_date": "2011-01-22 20:12:50", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 35, 
+            "comment_enabled": true, 
+            "title": "SoundCheck: Freshers 2010", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-11 13:24:36", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/v0T_4HeyC4o\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>Warwick TV Presents Freshers 2010</p></div>\n\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/qwbvlReJ0c0\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-01-22 20:12:50", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "soundcheck-freshers-2010", 
+            "categories": [
+                4
+            ]
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "WTV Entertainment has been feasting and wining in Warwick's own Come Dine With Me:", 
+            "related": [], 
+            "creation_date": "2011-01-22 20:04:21", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 34, 
+            "comment_enabled": true, 
+            "title": "Come Dine With Me", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-11 13:28:01", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/gP2XhM0tlxE\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>WTV Entertainment has been feasting and wining in Warwick\u2019s own Come Dine With Me:</p></div>\n\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/pZ1zPkMnAkE\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-01-22 20:04:21", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "come-dine-with-me", 
+            "categories": [
+                3
+            ]
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "Bringing you WTV's very own soap: My Mate's A Vampire Episode 1:", 
+            "related": [], 
+            "creation_date": "2011-01-22 19:48:52", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 33, 
+            "comment_enabled": true, 
+            "title": "My Mate's A Vampire", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-11 13:27:51", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/Zv1zKoqbGo8\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>Bringing you WTV\u2019s very own soap: My Mate\u2019s A Vampire Episode 1:</p></div>\n\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/PDatzLrop98\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-01-22 19:48:52", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "my-mates-a-vampire", 
+            "categories": [
+                3
+            ]
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "zinnia.entry", 
+        "fields": {
+            "image": "", 
+            "excerpt": "CultureShock episode 1 gave new members a chance to try out various roles such as presenting and camer-operating for the first time. This episode contains an interview with Rhys Rosser of Junior Apprentice, an evening with the Good Food Society, an interview with the editors of Ink Magazine and more...", 
+            "related": [], 
+            "creation_date": "2011-01-22 18:58:16", 
+            "featured": false, 
+            "pingback_enabled": true, 
+            "content_placeholder": 32, 
+            "comment_enabled": true, 
+            "title": "CultureShock Episode 1", 
+            "login_required": false, 
+            "sites": [
+                1
+            ], 
+            "last_update": "2011-10-11 13:27:42", 
+            "content": "\n\n<div class='video-youtube'>\n\n<iframe style=\"width: 640px; height: 390px\" src=\"http://www.youtube.com/embed/Qy12r169Etc\" frameborder=\"0\" allowfullscreen></iframe>\n \n</div>\n\n\n<div class='video-info'><p>CultureShock episode 1 gave new members a chance to try out various roles such as presenting and camer-operating for the first time.</p><p>This episode contains an interview with Rhys Rosser of Junior Apprentice, an evening with the Good Food Society, an interview with the editors of Ink Magazine and more\u2026</p></div>\n", 
+            "template": "zinnia/entry_detail.html", 
+            "end_publication": "2042-03-15 00:00:00", 
+            "start_publication": "2011-01-22 18:58:16", 
+            "status": 2, 
+            "tags": "", 
+            "authors": [
+                1
+            ], 
+            "password": "", 
+            "slug": "cultureshock-episode-1", 
+            "categories": [
+                2
+            ]
+        }
+    }
+]

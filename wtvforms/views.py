@@ -21,7 +21,7 @@ class WTVAddEntryForm(forms.ModelForm):
   tags = forms.BooleanField(required=False, label=_('Front page ticker'))
 
   categories = MPTTModelMultipleChoiceField(
-    Category.objects.all(), required=False, label=_('Categories'),
+    queryset=Category.objects.all(), required=False, label=_('Categories'),
     widget=MPTTFilteredSelectMultiple(_('categories'), False, attrs={'rows': '10'}))
 
   def __init__(self, *args, **kwargs):
@@ -59,7 +59,7 @@ def wtv_add_entry(request):
       plugin = cms.api.add_plugin(entry.content_placeholder, TextVidPlugin, 'en-gb')
       return HttpResponseRedirect(reverse('wtvforms.views.wtv_add_entry_content', args=(plugin.id,)))
   else:
-    form = WTVAddEntryForm() 
+    form = WTVAddEntryForm()
 
   return render_to_response('wtvforms/wtv_add_entry.html', {'form': form }, context_instance=RequestContext(request) )
 
