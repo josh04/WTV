@@ -53,6 +53,9 @@ class KitType(models.Model):
     name = models.CharField(max_length=200)
     description = models.TextField()
 
+    def __unicode__(self):
+        return unicode(self.name)
+
 class Kit(models.Model):
     type = models.ForeignKey(KitType)
     serial = models.CharField(max_length=50, unique=True)
