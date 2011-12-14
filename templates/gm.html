@@ -1,0 +1,11 @@
+{% load sekizai_tags cms_tags %}
+{% extends base.html %}
+    {% block 'title' %}Warwick SU General Meeting Footage{% endblock %}
+
+    {% addtoblock 'js' %}     <script type="text/javascript" src="/media/jwplayer/jwplayer.js"></script> {% endaddtoblock %}
+    {% block 'main-col' %}  <div id="container">Loading the player ...</div>
+    <script type="text/javascript"> jwplayer("container").setup({
+        flashplayer: "/media/jwplayer/player.swf", file: "/media/meeting2.flv", height: 576, width: 720, provider: 'http', stretching: 'exactfit'
+        });
+    </script>
+    {% endblock %}
