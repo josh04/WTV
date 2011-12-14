@@ -1,11 +1,43 @@
-{% load sekizai_tags cms_tags %}
-{% extends base.html %}
+{% extends 'base.html' %}
+{% load sekizai_tags %}
     {% block 'title' %}Warwick SU General Meeting Footage{% endblock %}
 
-    {% addtoblock 'js' %}     <script type="text/javascript" src="/media/jwplayer/jwplayer.js"></script> {% endaddtoblock %}
-    {% block 'main-col' %}  <div id="container">Loading the player ...</div>
+
+
+    {% block main-col %}
+    
+    <div style='margin: 0 auto; width:880px;'>
+        <div class='video' style='width: 880px;'>
+            <div class='video-youtube' style='width:720px;height:576px;'><div id="container">Loading the player ...</div></div>
+    <script type="text/javascript" src="/media/jwplayer/jwplayer.js"></script> 
     <script type="text/javascript"> jwplayer("container").setup({
         flashplayer: "/media/jwplayer/player.swf", file: "/media/meeting2.flv", height: 576, width: 720, provider: 'http', stretching: 'exactfit'
         });
     </script>
+    
+    <h3 class='entry-date'>UGM</h3>
+    <div class='video-info'><p>
+        On the 29th November 2011 Warwick SU held a general meeting, at which these motions were discussed:</p>
+        <p><br />
+        Should this union boycott the products of and sponsorship funding from Bacardi?
+        <br /><br />
+        BAE and the Students' Union
+        <br /><br />
+        A Postgraduate Association
+        <br /><br />
+        Warwick SU Against Tuition Fees
+        <br /><br />
+        Strikes on 30th November
+        <br /><br />
+        No Platform
+        <br /><br />
+        Enhancing Educational Quality
+        <br /><br />
+        Democratic Union of Students
+        <br /><br />
+        Increasing Freedom in Union Elections
+        </p>
+    </div>
+
+        <div style='clear:both'></div></div></div>
     {% endblock %}

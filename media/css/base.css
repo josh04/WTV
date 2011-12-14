@@ -569,7 +569,7 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
   list-style-type: none;
 }
  
-#shoutbox li .post, #container {
+#shoutbox li .post {
   background: url('/media/shoutbox-bottom.png') rgb(92, 92, 92) no-repeat center bottom !important;
   padding: 5px 5px 42px 5px;
   color: #fff !important;

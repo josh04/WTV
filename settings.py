@@ -1,11 +1,11 @@
 # Django settings for wtv project.
 
 import os
-#from wtvsettings import Private
+from wtvsettings import Private
 gettext = lambda s: s
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
 
-DEBUG = True
+DEBUG = Private.WTVSettings.debug()
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -14,14 +14,7 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-#DATABASES = Private.WTVSettings.database()
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(PROJECT_PATH, 'db.sqlite')
-    }
-}
+DATABASES = Private.WTVSettings.database()
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
@@ -51,7 +44,7 @@ USE_L10N = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
-MEDIA_ROOT = os.path.join(PROJECT_PATH, 'media/')
+MEDIA_ROOT = '/home/django/wtv-dev/media/'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
@@ -89,7 +82,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = 'privatekey'
+SECRET_KEY = Private.WTVSettings.secret()
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -110,7 +103,7 @@ MIDDLEWARE_CLASSES = (
     'cbv.middleware.DeferredRenderingMiddleware',
 )
 
-ROOT_URLCONF = 'WTV.urls'
+ROOT_URLCONF = Private.WTVSettings.urls()
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -189,6 +182,7 @@ CMS_TEMPLATES = (
     ('exec.html', 'Exec Page'),
     ('static_text.html', 'Single Text Template'),
     ('webcam_page.html', 'Webcam Template'),
+    ('gm.html', 'General Meeting Template'),
 )
 
 ZINNIA_PLUGINS_TEMPLATES = [
