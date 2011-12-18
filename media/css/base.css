@@ -426,8 +426,9 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
 #grid-right .post {
   background: rgb(192, 192, 192);
   -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
-  -webkit-border-radius: 0 5px 5px 0;
-  -moz-border-radius: 0 5px 5px 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 
 }
 
