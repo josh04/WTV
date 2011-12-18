@@ -5,9 +5,10 @@
 {% tags_for_model zinnia.entry as tag_entry %}
 	<div id="grid-left">
         <div id='grid-right'>
+            {% include "searchbox.html" %}
           <div id='sidebar'>
-          {% block sidebar %}
-          {% endblock %}
+            {% block sidebar %}
+            {% endblock %}
           </div>
         </div>
 
