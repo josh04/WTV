@@ -153,6 +153,13 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
   margin: 0px 0 7px 15px;
   color: rgb(192, 192, 192);
   display:block;
+  text-decoration: none;
+}
+
+#logo h1 {
+  color:transparent;
+  text-decoration: none !important;
+  font-size: 1.5em;
 }
 
 #news {
@@ -219,13 +226,13 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
   font-size: 1.4em;
   text-align: right;
   float:right;
-  width: 150px;
+  width: 160px;
   line-height:33px;
 }
 
 #top-menu li a {
   display:block;
-  width: 150px;
+  width: 160px;
   height: 33px;
   text-align: center;
 }
@@ -233,7 +240,7 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
 .sub-menu li a {
   padding: 20px;
   font-size: 0.52em;
-  width: 150px;
+  width: 160px;
   margin: 0;
   padding: 0;
 }
@@ -870,7 +877,7 @@ input[type="text"], input[type="password"], textarea, select, .vTextField {
 .login-menu #members-menu {
   background: rgba(127, 158, 248, 0.2);
   padding: 0px 10px;
-  margin-left: -26px;
+  margin-left: -21px;
 }
 
 #submit-login {
