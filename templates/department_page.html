@@ -6,12 +6,10 @@
   <div style='margin: 5px 0;' id='grid-left'>
 
 
-<div id='grid-right'> {% placeholder sidebar %} 
-
-{% include "searchbox.html" %}
-
-
- </div>
+    <div id='grid-right'> 
+      
+<h1 style='margin-left:-5px; font-size:1.7em'>{% page_attribute "page_title" %}</h1>
+      {% placeholder sidebar %} {% include "searchbox.html" %} </div>
 
    {% placeholder static_page_content %} <div style='clear:both;'></div>  </div>
 {% endblock %}
