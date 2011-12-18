@@ -5,7 +5,7 @@
 
 {% block meta-description %}{% if object.excerpt %}{{ object.excerpt|striptags }}{% else %}{{ object.content|striptags|truncatewords:100 }}{% endif %}{% endblock %}
 
-{% block extra-breadcrumbs %}{% zinnia_breadcrumbs "" "archive" %}{% endblock %}
+{% block breadcrumbs %}{% zinnia_breadcrumbs "" "wtv archive" %}{% endblock %}
 
 {% block link %}
   {{ block.super }}
@@ -14,7 +14,7 @@
 {% endblock %}
 
 {% block main-col %}
-<h1><span style='color: rgb(127, 158, 248)'>WTV - </span>{{ object.title }}</h1>
+<h1><a href='http://tv.warwick.ac.uk' style='color: rgb(127, 158, 248); text-decoration: none !important'>WTV - </a>{{ object.title }}</h1>
 <div id="single-video">
   
   {% with object.html_content|safe as object_content %}

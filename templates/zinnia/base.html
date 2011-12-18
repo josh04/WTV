@@ -1,9 +1,7 @@
 {% extends "zinnia/skeleton.html" %}
 {% load zinnia_tags tagging_tags i18n %}
 
-{% block extra-breadcrumbs %}
-  {% zinnia_breadcrumbs %}
-{% endblock %}
+{% block breadcrumbs %}{% zinnia_breadcrumbs "" "wtv archive" %}{% endblock %}
 
 
 {% block sidebar %}
