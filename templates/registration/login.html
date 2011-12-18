@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load i18n %}
+{% block title %}login{% endblock %}
 {% block main-col %}
 {% if form.errors and not form.non_field_errors and not form.this_is_the_login_form.errors %}
 <p class="errornote">
@@ -19,7 +20,7 @@
 
 <h2>Login</h2>
 
-<div id='container'>
+<div id='container' class='video'>
 
 <form action="{{ app_path }}" method="post" id="login-form">{% csrf_token %}
   <div class="form-row">

@@ -297,6 +297,7 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
   background: rgba(45, 100, 248, 0.7);
   color: #FFF;
   padding: 0 10px 0 0;
+  text-transform: lowercase;
 }
 
 #breadcrumbs li {
@@ -424,12 +425,13 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
 }
 
 #grid-right .post {
-  background: rgb(192, 192, 192);
+  color: #fff;
+  background: rgb(92, 92, 92);
   -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-
+  margin: 30px 0;
 }
 
 #dep-left {
@@ -502,7 +504,7 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
   margin: 30px 6px; 
   border-spacing: 0px;
   vertical-align: top;
-  background: url('/media/wtv-rings-small.png') rgb(192, 192, 192) no-repeat left center;
+  background: url('/media/wtv-rings-small.png') rgb(192, 192, 192) no-repeat left bottom;
   width: 800px;
 /*  min-height: 390px;*/
   float: left;
@@ -742,11 +744,11 @@ div.paginator span.current { border-color: rgb(92, 92, 92); background-color: rg
 }
 
 .login #container {
-    background: white;
-    border: 1px solid #ccc;
     width: 28em;
     min-width: 300px;
     margin: 0px auto 100px auto;
+    float: none;
+    padding: 5px;
 }
 
 .login #content-main {
@@ -897,4 +899,48 @@ form.dropdown-login input {
   background-color: rgba(255, 240, 240, 1);
   padding: 8px;
   margin: 2px 15px 4px -15px;
+}
+
+#facebookgroupbutton {
+  background: url('/media/fb_large.png') rgb(92, 92, 92) no-repeat bottom right;
+  padding: 15px 15px 270px 15px;
+  text-align: center;
+  text-decoration:none;
+  color: #fff !important;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+/*  box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);  
+  -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);*/
+  font-weight: normal;
+  margin: 0px 0px;
+  float: right;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+}
+
+#facebookgroupbutton:hover {
+  background-position: bottom left !important;
+}
+
+#single-video {
+ margin: 0 auto;
+ width: 1014px;   
+}
+
+#single-video .video {
+    width: 1014px;
+    margin: 30px 0;
+}
+
+#single-video .video-youtube {
+    width:854px;
+    height:480px;
+}
+
+#single-video .video-youtube iframe {
+  width: 854px !important;
+  height: 480px !important;
 }

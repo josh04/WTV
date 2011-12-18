@@ -136,16 +136,17 @@ INSTALLED_APPS = (
     'djangocms_utils',
     'tagging',
     'simple_translation',
-    'cmsplugin_youtube',
-    'django.contrib.comments',
+    #'cmsplugin_youtube',
+    #'django.contrib.comments',
     'zinnia',
     'zinnia.plugins',
     'polls',
     'textvid',
-    'booking',
+   # 'booking',
     'wtvforms',
     'sortable',
     'executive',
+    'facebookgroupbutton',
 )
 
 # A sample logging configuration. The only tangible logging

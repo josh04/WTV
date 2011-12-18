@@ -1,24 +1,42 @@
-{% extends "zinnia/base.html" %}
+{% extends "base.html" %}
 {% load i18n tagging_tags comments zinnia_tags %}
 
 {% block title %}{{ object.title }}{% endblock %}
 
 {% block meta-description %}{% if object.excerpt %}{{ object.excerpt|striptags }}{% else %}{{ object.content|striptags|truncatewords:100 }}{% endif %}{% endblock %}
 
+{% block extra-breadcrumbs %}{% zinnia_breadcrumbs "" "archive" %}{% endblock %}
+
 {% block link %}
   {{ block.super }}
   <link rel="alternate" type="application/rss+xml" title="{% trans "RSS Feed of discussions on" %} '{{ object.title }}'" href="{% url zinnia_entry_discussion_feed object.slug %}" />
   <link rel="alternate" type="application/rss+xml" title="{% trans "RSS Feed of comments on" %} '{{ object.title }}'" href="{% url zinnia_entry_comment_feed object.slug %}" />
-  <link rel="alternate" type="application/rss+xml" title="{% trans "RSS Feed of pingbacks on" %} '{{ object.title }}'" href="{% url zinnia_entry_pingback_feed object.slug %}" />
-  <link rel="alternate" type="application/rss+xml" title="{% trans "RSS Feed of trackbacks on" %} '{{ object.title }}'" href="{% url zinnia_entry_trackback_feed object.slug %}" />
 {% endblock %}
 
-{% block content %}
-<div id="entry-{{ object.pk }}" class="hentry{% if object.featured %} featured{% endif %} span-16 last">
+{% block main-col %}
+<div id="single-video">
+  
   {% with object.html_content|safe as object_content %}
   {% include "zinnia/_entry_detail.html" %}
   {% endwith %}
+
 </div>
+
+<div style='clear:both;'></div>
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
 
 <div id="comments" class="span-16 last">
   <h3>{% trans "Comments" %}</h3>
@@ -59,64 +77,6 @@
   <p>{% trans "Comments are closed." %}</p>
     {% endif %}
   {% endif %}
-  {% endwith %}
-</div>
-
-<div id="pingbacks" class="span-16 last">
-  <h3>{% trans "Pingbacks" %}</h3>
-  {% with object.pingbacks as pingback_list %}
-  {% if pingback_list.count %}
-  <ol id="pingback-list" class="span-15 last">
-    {% for pingback in pingback_list %}
-    <li id="pingback_{{ pingback.pk }}" class="pingback {% cycle box1,box2 %} span-15 last">
-      <div class="pingback-body span-15 last">
-	<div class="pingback-author span-15 last">
-	  <a href="{{ pingback.url }}">{{ pingback.user_name }}</a>
-	  {% trans "on" %} {{ pingback.submit_date|date:"SHORT_DATETIME_FORMAT" }}
-	</div>
-	<div class="span-15 last">
-	  <cite>
-	    {{ pingback.comment }}
-	  </cite>
-	</div>
-      </div>
-    </li>
-    {% endfor %}
-  </ol>
-  {% endif %}
-    {% if object.pingback_enabled %}
-  <p>{% trans "Pingbacks are open." %}</p>
-    {% else %}
-  <p>{% trans "Pingbacks are closed." %}</p>
-    {% endif %}
-  {% endwith %}
-</div>
-
-<div id="trackbacks" class="span-16 last">
-  <h3>{% trans "Trackbacks" %}</h3>
-  {% with object.trackbacks as trackback_list %}
-  {% if trackback_list.count %}
-  <ol id="trackback-list" class="span-15 last">
-    {% for trackback in trackback_list %}
-    <li id="trackback_{{ trackback.pk }}" class="trackback {% cycle box1,box2 %} span-15 last">
-      <div class="trackback-body span-15 last">
-	<div class="trackback-author span-15 last">
-	  <a href="{{ trackback.url }}">{{ trackback.user_name }}</a>
-	  {% trans "on" %} {{ trackback.submit_date|date:"SHORT_DATETIME_FORMAT" }}
-	</div>
-	<div class="span-15 last">
-	  <cite>
-	    {{ trackback.comment }}
-	  </cite>
-	</div>
-      </div>
-    </li>
-    {% endfor %}
-  </ol>
-  {% endif %}
-    {% if object.pingback_enabled %}
-  <p><a href="{% url zinnia_entry_trackback object.slug %}" rel="trackback">{% trans "Trackback URL" %}</a></p>
-    {% endif %}
   {% endwith %}
 </div>
 
