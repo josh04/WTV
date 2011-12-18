@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% load i18n tagging_tags comments zinnia_tags %}
+{% load i18n tagging_tags zinnia_tags %}
 
 {% block title %}{{ object.title }}{% endblock %}
 
@@ -24,69 +24,10 @@
 
 <div style='clear:both;'></div>
 
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-<div id="comments" class="span-16 last">
-  <h3>{% trans "Comments" %}</h3>
-  {% with object.comments as comment_list %}
-  {% if comment_list.count %}
-  <ol id="comment-list" class="span-15 last">
-    {% for comment in comment_list %}
-    <li id="comment_{{ comment.pk }}" class="comment vcard {% cycle box1,box2 %}{% if comment.user in object.authors.all %} post-author{% endif %} span-15 last">
-      <div class="span-2">
-	<img src="{% get_gravatar comment.email 60 "G" %}" class="gravatar photo" alt="{{ comment.user_name }}"/>
-      </div>
-      <div class="comment-body span-13 last">
-	<div class="comment-author span-13 last">
-	  {% if comment.url %}
-	  <a href="{{ comment.url }}" class="fn url">{{ comment.user_name }}</a>
-	  {% else %}
-	  {{ comment.user_name }}
-	  {% endif %}
-	  {% trans "on" %} {{ comment.submit_date|date:"SHORT_DATETIME_FORMAT" }}
-	</div>
-	<div class="span-13 last">
-	  <cite>
-	    {{ comment.comment }}
-	  </cite>
-	</div>
-      </div>
-      <div style='clear:both'></div>
-    </li>
-    {% endfor %}
-  </ol>
-    {% if not object.comment_enabled %}
-  <p>{% trans "Comments are closed." %}</p>
-    {% endif %}
-  {% else %}
-    {% if object.comment_enabled %}
-  <p>{% trans "No comments yet." %}</p>
-    {% else %}
-  <p>{% trans "Comments are closed." %}</p>
-    {% endif %}
-  {% endif %}
-  {% endwith %}
-</div>
-
-{% if object.comment_enabled %}
-<div class="commentForm span-16 last">
-  {% render_comment_form for object %}
-</div>
-{% endif %}
-
 {% endblock %}
+
+
+
 
 {% block admin_tools %}
 {% if perms.zinnia.change_entry %}

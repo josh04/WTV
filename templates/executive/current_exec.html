@@ -10,7 +10,7 @@
     {% cycle '<tr>' '' %}
       <td class='exec-pic'>
         {% if member.photo %}<img src='{{ MEDIA_URL }}{{ member.photo }}' />
-        {% else %}<img src='{{ MEDIA_URL }}missing.jpg' />{% endif %}
+        {% else %}<img src='{{ MEDIA_URL }}missing.png' />{% endif %}
       </td>
   <td class='exec-text'>
     <p><strong>{{ member.role }}: {{ member.name }}</strong></p>

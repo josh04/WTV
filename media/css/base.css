@@ -21,13 +21,8 @@ a:hover {
 color: white;
 }
 
-h1 {
-  padding: 0;
-  margin: 5px;
-  text-align: right;
-}
 
-h2 {
+h1, h2 {
   padding: 0;
   margin: 5px 2px -20px 10px;
   height: 25px;
@@ -382,11 +377,11 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
 }
 
 #fb-icon {
-  background: url('/media/f_logo.png');
+  background: url('/media/facebook-new.png');
 }
 
 #youtube-icon {
-  background: url('/media/youtube.png');
+  background: url('/media/youtube-new.png');
 }
 
 #su-icon {
@@ -478,6 +473,26 @@ ol#comment-list li .comment-author, ol#comment-list li .pingback-author, ol#comm
 
 #bottom {
   margin: 5px 0 20px 0;
+  padding: 10px 0 5px 0;
+  background: url('/media/bottomtvlogo.png') transparent no-repeat 30% top;
+}
+
+#bottom ul {
+  padding: 0;
+}
+
+#bottom li {
+  display:inline;
+  margin: 0 5px;
+}
+
+#bottom a:link, #bottom a:visited, #bottom a:active, #bottom span, #bottom li {
+  color: #999999;
+  text-decoration: none;
+}
+
+#bottom a:hover {
+  text-decoration: underline;
 }
 
 #banner {
@@ -749,6 +764,9 @@ div.paginator span.current { border-color: rgb(92, 92, 92); background-color: rg
     margin: 0px auto 100px auto;
     float: none;
     padding: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
 .login #content-main {

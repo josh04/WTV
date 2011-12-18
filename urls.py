@@ -7,7 +7,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     (r'^admin/', include(admin.site.urls)),
     url(r'^archive/', include('zinnia.urls')),
-    url(r'^comments/', include('django.contrib.comments.urls')),
+#    url(r'^comments/', include('django.contrib.comments.urls')),
     (r'^polls/', include('polls.urls')),
     (r'^booking/', include('booking.urls')),
     url(r'^wtv/', include('wtvforms.urls')),
