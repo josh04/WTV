@@ -111,7 +111,7 @@
 
     <div style='clear:both;'></div>
     <div id='menubar'>
-      <ul id='breadcrumbs'>{% block breadcrumbs %}{% show_breadcrumb %}{% endblock %}</ul><ul id='submenu'>{% show_sub_menu 1 %}</ul>
+        <ul id='breadcrumbs'>{% block breadcrumbs %}{% show_breadcrumb %}{% endblock %}{% block extra-breadcrumbs %}{% endblock %}</ul><ul id='submenu'>{% show_sub_menu 1 %}</ul>
     </div>
     </div>
     <div style='clear:both;height:25px;'></div>
