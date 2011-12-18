@@ -176,13 +176,11 @@ LANGUAGES = [
 ]
 
 CMS_TEMPLATES = (
-    ('blog_page.html', 'Blog Page'),
-    ('static_page.html', 'Static Page Template'),
+    ('department_page.html', 'Department Template'),
     ('main_page.html', 'Home Page Template'),
-    ('exec.html', 'Exec Page'),
     ('static_text.html', 'Single Text Template'),
     ('webcam_page.html', 'Webcam Template'),
-    ('gm.html', 'General Meeting Template'),
+    ('hosted_video.html', 'Hosted Video Template (Beta)'),
 )
 
 ZINNIA_PLUGINS_TEMPLATES = [
